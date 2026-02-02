@@ -1,0 +1,10 @@
+{
+  "category": "collectables",
+  "products": [
+    { "id": "collectables-1", "title": "Replica Helmet Mini", "price": "$49.99", "imageUrl": "https://picsum.photos/id/119/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "collectables-2", "title": "Shield Statue", "price": "$79.99", "imageUrl": "https://picsum.photos/id/120/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "collectables-3", "title": "Limited Edition Print", "price": "$59.99", "imageUrl": "https://picsum.photos/id/121/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "collectables-4", "title": "Coin Set Gold", "price": "$39.99", "imageUrl": "https://picsum.photos/id/122/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "collectables-5", "title": "Book: Thermopylae", "price": "$24.99", "imageUrl": "https://picsum.photos/id/123/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" }
+  ]
+}

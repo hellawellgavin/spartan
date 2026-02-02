@@ -1,0 +1,10 @@
+{
+  "category": "pants",
+  "products": [
+    { "id": "pants-1", "title": "Tactical Cargo Pants", "price": "$69.99", "imageUrl": "https://picsum.photos/id/82/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "pants-2", "title": "Warrior Joggers", "price": "$54.99", "imageUrl": "https://picsum.photos/id/83/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "pants-3", "title": "Legacy Chinos", "price": "$49.99", "imageUrl": "https://picsum.photos/id/84/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "pants-4", "title": "Spartan Denim", "price": "$64.99", "imageUrl": "https://picsum.photos/id/85/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "pants-5", "title": "Training Shorts", "price": "$34.99", "imageUrl": "https://picsum.photos/id/86/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" }
+  ]
+}

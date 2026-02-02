@@ -1,0 +1,10 @@
+{
+  "category": "shirts",
+  "products": [
+    { "id": "shirts-1", "title": "Molon Labe Tee", "price": "$29.99", "imageUrl": "https://picsum.photos/id/51/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "shirts-2", "title": "Spartan Shield Hoodie", "price": "$59.99", "imageUrl": "https://picsum.photos/id/52/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "shirts-3", "title": "Thermopylae Long Sleeve", "price": "$39.99", "imageUrl": "https://picsum.photos/id/53/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "shirts-4", "title": "Helmet Logo Tank", "price": "$24.99", "imageUrl": "https://picsum.photos/id/54/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "shirts-5", "title": "Legacy Polo", "price": "$44.99", "imageUrl": "https://picsum.photos/id/55/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" }
+  ]
+}

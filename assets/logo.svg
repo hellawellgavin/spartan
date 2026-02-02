@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <!-- Metallic gold gradient -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#FFC700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B8860B;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#DAA520;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+    </linearGradient>
+    <!-- Metallic red -->
+    <linearGradient id="redMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC143C;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#8B0000;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#A52A2A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC143C;stop-opacity:1" />
+    </linearGradient>
+    <!-- Shield highlight -->
+    <filter id="shine">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feOffset dx="1" dy="1" result="offsetblur"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Outer gold ring -->
+  <circle cx="60" cy="60" r="58" fill="none" stroke="url(#gold)" stroke-width="8" filter="url(#shine)"/>
+  <!-- Black ring -->
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+  <!-- Inner red circle -->
+  <circle cx="60" cy="60" r="38" fill="url(#redMetal)" stroke="#5c0000" stroke-width="2" filter="url(#shine)"/>
+  <!-- Spartan helmet - gold with black crest -->
+  <g transform="translate(60,60) scale(0.9)">
+    <!-- Helmet dome and face -->
+    <path fill="url(#gold)" stroke="#8B6914" stroke-width="0.8" d="M 0 -22 
+      C 8 -22 14 -16 14 -8 
+      L 14 4 C 14 8 10 12 6 14 
+      L 2 16 L -2 16 L -6 14 
+      C -10 12 -14 8 -14 4 
+      L -14 -8 C -14 -16 -8 -22 0 -22 Z"/>
+    <!-- Nose guard -->
+    <path fill="url(#gold)" stroke="#8B6914" stroke-width="0.6" d="M -2 4 L 0 16 L 2 4 Z"/>
+    <!-- Left cheek -->
+    <path fill="url(#gold)" stroke="#8B6914" stroke-width="0.6" d="M -14 2 Q -20 6 -18 12 L -10 10 Z"/>
+    <!-- Right cheek -->
+    <path fill="url(#gold)" stroke="#8B6914" stroke-width="0.6" d="M 14 2 Q 20 6 18 12 L 10 10 Z"/>
+    <!-- Eye slit left -->
+    <path fill="#1a1a1a" d="M -10 -4 L -4 -2 L -6 2 L -12 0 Z"/>
+    <!-- Eye slit right -->
+    <path fill="#1a1a1a" d="M 10 -4 L 4 -2 L 6 2 L 12 0 Z"/>
+    <!-- Crest/plume - black -->
+    <path fill="#1a1a1a" stroke="#0a0a0a" stroke-width="0.5" d="M -6 -22 
+      L -6 -38 L -2 -42 L 0 -44 L 2 -42 L 6 -38 L 6 -22 
+      Q 4 -24 0 -25 Q -4 -24 -6 -22 Z"/>
+    <!-- Crest base -->
+    <ellipse cx="0" cy="-22" rx="6" ry="2" fill="#1a1a1a"/>
+  </g>
+</svg>

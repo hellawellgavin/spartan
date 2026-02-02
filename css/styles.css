@@ -1,0 +1,339 @@
+/* Souvenir Spartan - Red, Black & Gold Theme */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  --font-heading: 'Orbitron', sans-serif;
+  --font-body: 'Exo 2', sans-serif;
+  --gold: #D4AF37;
+  --gold-light: #F4E4BC;
+  --gold-dark: #8B6914;
+  --red: #8B0000;
+  --red-bright: #B22222;
+  --red-dark: #5c0000;
+  --black: #1a1a1a;
+  --black-soft: #2d2d2d;
+  --white: #f5f5f5;
+  --shadow: 0 4px 20px rgba(0,0,0,0.4);
+  --radius: 8px;
+  --transition: 0.25s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--black);
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+}
+
+a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+a:hover {
+  color: var(--gold-light);
+}
+
+/* Header */
+.site-header {
+  background: linear-gradient(180deg, var(--black-soft) 0%, var(--black) 100%);
+  border-bottom: 3px solid var(--gold);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.site-header .logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.site-header img.logo {
+  width: 56px;
+  height: 56px;
+  display: block;
+}
+.site-header .site-name {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 20px rgba(212,175,55,0.3);
+}
+.site-header nav {
+  margin-left: auto;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.site-header nav a {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+}
+
+/* Main content */
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Category grid - homepage */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+@media (max-width: 768px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.category-box {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  border: 2px solid var(--gold-dark);
+  box-shadow: var(--shadow);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.category-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(212,175,55,0.25);
+  border-color: var(--gold);
+}
+.category-box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.category-box .cat-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--red-dark);
+}
+/* Grey polo: polo shirt only, no person – filter makes it display as grey */
+.category-box .cat-image-grey {
+  filter: grayscale(100%) brightness(0.9) contrast(1.05);
+}
+.category-box .cat-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 50%);
+  display: flex;
+  align-items: flex-end;
+  padding: 1.25rem;
+}
+.category-box .cat-name {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+/* Page title */
+.page-title {
+  font-size: 2rem;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--gold-dark);
+}
+
+/* Product grid - category pages */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+.product-card {
+  background: var(--black-soft);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--gold-dark);
+  transition: border-color var(--transition), transform var(--transition);
+}
+.product-card a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.product-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.product-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: var(--red-dark);
+}
+.product-card .product-info {
+  padding: 1rem;
+}
+.product-card .product-name {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--white);
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.02em;
+}
+.product-card .product-price {
+  color: var(--gold);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--black-soft);
+  border-top: 3px solid var(--gold);
+  padding: 2rem;
+  margin-top: auto;
+}
+.site-footer .footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.site-footer .footer-col h4 {
+  color: var(--gold);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+}
+.site-footer ul {
+  list-style: none;
+}
+.site-footer li {
+  margin-bottom: 0.5rem;
+}
+.site-footer a {
+  color: var(--white);
+  opacity: 0.9;
+}
+.site-footer a:hover {
+  color: var(--gold);
+  opacity: 1;
+}
+.site-footer .copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gold-dark);
+  color: var(--gold);
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Simple pages (about, contact, sitemap) */
+.simple-page {
+  max-width: 700px;
+}
+.simple-page h2 {
+  font-family: var(--font-heading);
+  color: var(--gold);
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.simple-page p {
+  margin-bottom: 1rem;
+  opacity: 0.95;
+}
+.simple-page ul {
+  margin: 0.5rem 0 1rem 1.5rem;
+}
+.simple-page li {
+  margin-bottom: 0.5rem;
+}
+.sitemap-list {
+  list-style: none;
+  margin-left: 0;
+}
+.sitemap-list a {
+  display: block;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--gold-dark);
+}
+.sitemap-list a:hover {
+  border-bottom-color: var(--gold);
+}
+
+/* Form (contact) */
+.contact-form label {
+  display: block;
+  margin: 1rem 0 0.25rem;
+  color: var(--gold);
+  font-weight: 600;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem;
+  background: var(--black-soft);
+  border: 1px solid var(--gold-dark);
+  border-radius: 4px;
+  color: var(--white);
+  font-family: inherit;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+.contact-form button {
+  font-family: var(--font-heading);
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--gold);
+  color: var(--black);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+}
+.contact-form button:hover {
+  background: var(--gold-light);
+  color: var(--black);
+}

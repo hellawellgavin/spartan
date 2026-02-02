@@ -1,0 +1,10 @@
+{
+  "category": "travel",
+  "products": [
+    { "id": "travel-1", "title": "Duffel Bag Pro", "price": "$89.99", "imageUrl": "https://picsum.photos/id/28/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "travel-2", "title": "Travel Backpack", "price": "$74.99", "imageUrl": "https://picsum.photos/id/29/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "travel-3", "title": "Passport Holder", "price": "$24.99", "imageUrl": "https://picsum.photos/id/30/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "travel-4", "title": "Weekender Bag", "price": "$64.99", "imageUrl": "https://picsum.photos/id/31/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "travel-5", "title": "Packing Cubes Set", "price": "$34.99", "imageUrl": "https://picsum.photos/id/32/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" }
+  ]
+}

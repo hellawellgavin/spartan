@@ -1,0 +1,10 @@
+{
+  "category": "merch",
+  "products": [
+    { "id": "merch-1", "title": "Souvenir Spartan Logo Cap", "price": "$24.99", "imageUrl": "assets/merch-hat.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "merch-2", "title": "Souvenir Spartan Shield Hat", "price": "$26.99", "imageUrl": "assets/merch-hat.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "merch-3", "title": "Souvenir Spartan Logo Tee", "price": "$29.99", "imageUrl": "assets/merch-shirt.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "merch-4", "title": "Souvenir Spartan Shield Shirt", "price": "$32.99", "imageUrl": "assets/merch-shirt.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
+    { "id": "merch-5", "title": "Souvenir Spartan Beach Towel", "price": "$34.99", "imageUrl": "assets/merch-towel.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" }
+  ]
+}
