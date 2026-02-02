@@ -211,6 +211,124 @@ main {
   font-weight: 700;
 }
 
+/* Product detail page */
+.product-detail-loading,
+.product-detail-error {
+  color: var(--gold);
+  padding: 2rem 0;
+}
+.product-detail-breadcrumb {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--white);
+  opacity: 0.9;
+}
+.product-detail-breadcrumb a {
+  color: var(--gold);
+}
+.product-detail-breadcrumb .breadcrumb-sep {
+  margin: 0 0.35rem;
+  color: var(--gold-dark);
+}
+.product-detail-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .product-detail-layout {
+    grid-template-columns: 1fr;
+  }
+}
+.product-detail-image-wrap {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 2px solid var(--gold-dark);
+  background: var(--red-dark);
+}
+.product-detail-image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  display: block;
+}
+.product-detail-info {
+  padding: 0.5rem 0;
+}
+.product-detail-title {
+  font-size: 1.75rem;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.03em;
+}
+.product-detail-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+.product-detail-summary,
+.product-detail-desc {
+  margin-bottom: 1.25rem;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+.product-detail-specs {
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--gold-dark);
+  border-bottom: 1px solid var(--gold-dark);
+}
+.product-detail-specs-title {
+  font-size: 1rem;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.product-detail-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+.product-detail-label {
+  color: var(--gold);
+  font-weight: 600;
+  min-width: 8rem;
+}
+.product-detail-value {
+  color: var(--white);
+  opacity: 0.95;
+}
+.product-detail-cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--gold);
+  color: var(--black);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: var(--radius);
+  transition: background var(--transition), color var(--transition);
+  text-decoration: none;
+}
+.product-detail-cta:hover {
+  background: var(--gold-light);
+  color: var(--black);
+}
+.product-detail-cta-disabled {
+  background: var(--black-soft);
+  color: var(--gold-dark);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.product-detail-cta-disabled:hover {
+  background: var(--black-soft);
+  color: var(--gold-dark);
+}
+
 /* Footer */
 .site-footer {
   background: var(--black-soft);

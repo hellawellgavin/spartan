@@ -1,10 +1,9 @@
 {
   "category": "merch",
   "products": [
-    { "id": "merch-1", "title": "Souvenir Spartan Logo Cap", "price": "$24.99", "imageUrl": "assets/merch-hat.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
-    { "id": "merch-2", "title": "Souvenir Spartan Shield Hat", "price": "$26.99", "imageUrl": "assets/merch-hat.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
-    { "id": "merch-3", "title": "Souvenir Spartan Logo Tee", "price": "$29.99", "imageUrl": "assets/merch-shirt.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
-    { "id": "merch-4", "title": "Souvenir Spartan Shield Shirt", "price": "$32.99", "imageUrl": "assets/merch-shirt.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" },
-    { "id": "merch-5", "title": "Souvenir Spartan Beach Towel", "price": "$34.99", "imageUrl": "assets/merch-towel.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20" }
+    { "id": "merch-1", "title": "Souvenir Spartan Logo Cap", "price": "$24.99", "imageUrl": "assets/merch-hat.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Official Souvenir Spartan cap with embroidered logo. One size fits most.", "sizes": ["One Size"], "colors": ["Black", "Navy", "Red", "Khaki"], "details": [{ "label": "Material", "value": "Cotton twill" }, { "label": "Closure", "value": "Adjustable strap" }] },
+    { "id": "merch-2", "title": "Souvenir Spartan Logo Tee", "price": "$29.99", "imageUrl": "assets/merch-shirt.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Classic tee with the Souvenir Spartan logo front and center. Soft, comfortable cotton.", "sizes": ["S", "M", "L", "XL", "2XL"], "colors": ["Black", "White", "Navy", "Heather Grey"], "details": [{ "label": "Material", "value": "100% cotton" }, { "label": "Fit", "value": "Unisex" }] },
+    { "id": "merch-3", "title": "Souvenir Spartan Side Logo Tee", "price": "$32.99", "imageUrl": "assets/merch-shirt-side-logo-exact.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Statement tee with side logo and large back print. Premium fit and feel.", "sizes": ["S", "M", "L", "XL", "2XL"], "colors": ["Black", "White", "Charcoal"], "details": [{ "label": "Material", "value": "100% cotton" }, { "label": "Fit", "value": "Regular" }] },
+    { "id": "merch-4", "title": "Souvenir Spartan Beach Towel", "price": "$34.99", "imageUrl": "assets/merch-towel.png", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Large beach towel with full Souvenir Spartan branding. Quick-dry and vibrant.", "sizes": ["One Size"], "colors": ["Navy/Gold", "Black/Gold", "Red/Gold"], "details": [{ "label": "Dimensions", "value": "30\" x 60\"" }, { "label": "Material", "value": "Cotton blend" }] }
   ]
 }

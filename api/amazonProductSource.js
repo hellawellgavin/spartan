@@ -99,6 +99,84 @@ async function searchItems(keywords, associateTag) {
   });
 }
 
+/**
+ * Fetch a single product by ASIN (used for product detail page).
+ * Uses PA-API 5.0 GetItems. Returns same shape as mock: id, title, price, imageUrl, productUrl, summary, etc.
+ */
+async function getProductByCategoryAndId(category, id) {
+  const accessKey = process.env.AMAZON_ACCESS_KEY;
+  const secretKey = process.env.AMAZON_SECRET_KEY;
+  const associateTag = process.env.AMAZON_ASSOCIATE_TAG;
+
+  if (!accessKey || !secretKey || !associateTag || !id) {
+    return null;
+  }
+
+  let ProductAdvertisingAPIv1;
+  try {
+    ProductAdvertisingAPIv1 = require('paapi5-nodejs-sdk');
+  } catch (e) {
+    return null;
+  }
+
+  const defaultClient = ProductAdvertisingAPIv1.ApiClient.instance;
+  defaultClient.accessKey = accessKey;
+  defaultClient.secretKey = secretKey;
+  defaultClient.host = 'webservices.amazon.com';
+  defaultClient.region = process.env.AMAZON_REGION || 'us-east-1';
+
+  const api = new ProductAdvertisingAPIv1.DefaultApi();
+  const getItemsRequest = new ProductAdvertisingAPIv1.GetItemsRequest();
+  getItemsRequest['PartnerTag'] = associateTag;
+  getItemsRequest['PartnerType'] = 'Associates';
+  getItemsRequest['ItemIds'] = [id];
+  getItemsRequest['Resources'] = [
+    'Images.Primary.Medium',
+    'Images.Primary.Large',
+    'ItemInfo.Title',
+    'ItemInfo.Features',
+    'Offers.Listings.Price',
+    'Offers.Listings.Condition',
+  ];
+
+  return new Promise((resolve) => {
+    api.getItems(getItemsRequest, (err, data) => {
+      if (err) {
+        console.error('Amazon PA-API GetItems error:', err.message || err);
+        return resolve(null);
+      }
+      const items = data?.ItemsResult?.Items || [];
+      const item = items[0];
+      if (!item) return resolve(null);
+
+      const title = item.ItemInfo?.Title?.DisplayValue || '';
+      const offers = item.Offers?.Listings?.[0];
+      const price = offers?.Price?.DisplayAmount || 'Price varies';
+      const images = item.Images?.Primary;
+      const imageUrl = images?.Medium?.URL || images?.Large?.URL || '';
+      let productUrl = item.DetailPageURL || '';
+      if (productUrl && associateTag && !productUrl.includes('tag=')) {
+        productUrl += (productUrl.includes('?') ? '&' : '?') + 'tag=' + encodeURIComponent(associateTag);
+      }
+      const features = item.ItemInfo?.Features?.DisplayValues || [];
+      const summary = Array.isArray(features) && features.length > 0 ? features.join(' ') : '';
+
+      resolve({
+        id: item.ASIN || item.Id || id,
+        title,
+        price,
+        imageUrl,
+        productUrl,
+        summary: summary || undefined,
+        sizes: [],
+        colors: [],
+        details: [],
+      });
+    });
+  });
+}
+
 module.exports = {
   getProductsByCategory,
+  getProductByCategoryAndId,
 };

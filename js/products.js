@@ -15,7 +15,7 @@
       .map(
         (p) => `
       <article class="product-card">
-        <a href="${escapeHtml(p.productUrl || '#')}" target="_blank" rel="noopener noreferrer sponsored">
+        <a href="product.html?category=${encodeURIComponent(category)}&id=${encodeURIComponent(p.id)}">
           <img src="${escapeHtml(p.imageUrl || '')}" alt="${escapeHtml(p.title || '')}" loading="lazy">
           <div class="product-info">
             <h3 class="product-name">${escapeHtml(p.title || '')}</h3>

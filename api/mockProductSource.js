@@ -25,6 +25,13 @@ function getProductsByCategory(category) {
   }
 }
 
+function getProductByCategoryAndId(category, id) {
+  const { products } = getProductsByCategory(category);
+  const product = products.find((p) => p.id === id);
+  return product || null;
+}
+
 module.exports = {
   getProductsByCategory,
+  getProductByCategoryAndId,
 };

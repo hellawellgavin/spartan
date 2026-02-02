@@ -7,7 +7,7 @@
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
-const { getProductsByCategory } = require('./api/productSource');
+const { getProductsByCategory, getProductByCategoryAndId, getSourceDescription } = require('./api/productSource');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -37,7 +37,22 @@ app.get('/api/products/:category', async (req, res) => {
   }
 });
 
+// Single product – same API shape for mock/live (when Amazon wired, use GetItems by ASIN)
+app.get('/api/product/:category/:id', async (req, res) => {
+  try {
+    const { category, id } = req.params;
+    const product = await getProductByCategoryAndId(category, id);
+    if (!product) {
+      return res.status(404).json({ error: 'Product not found' });
+    }
+    res.json({ product });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Failed to load product' });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Souvenir Spartan: http://localhost:${PORT}`);
-  console.log(`  API: GET /api/products/:category (source: ${process.env.PRODUCT_SOURCE || 'mock'})`);
+  console.log(`  API: GET /api/products/:category (${getSourceDescription()})`);
 });
