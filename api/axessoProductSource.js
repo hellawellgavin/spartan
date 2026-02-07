@@ -8,20 +8,22 @@
 
 const ASSOCIATE_TAG = process.env.AMAZON_ASSOCIATE_TAG || 'souvenirspartan-20';
 const CATEGORY_KEYWORDS = {
-  shoes: "men's dress shoes",
-  shirts: "men's polo shirt",
-  pants: "men's dress slacks",
-  merch: "leather briefcase",
-  travel: "travel duffel bag",
-  collectables: "collectible figurine",
+  shoes: "men's dress shoes casual sneakers oxford loafers",
+  shirts: "men's graphic tees streetwear fashion shirts",
+  pants: "men's pants trousers chinos joggers goodfellow dress casual",
+  merch: "men's accessories watches wallets bags hats caps",
+  travel: "travel bags backpacks luggage duffel carry-on",
+  collectables: "collectibles figurines memorabilia vintage decor",
 };
 
-function getProductsByCategory(category) {
+const PRODUCTS_PER_PAGE = 8;
+
+function getProductsByCategory(category, page = 1) {
   const key = process.env.RAPIDAPI_KEY;
   const host = process.env.RAPIDAPI_HOST || 'axesso-amazon-data-service1.p.rapidapi.com';
 
   if (!key) {
-    return Promise.resolve({ category, products: [] });
+    return Promise.resolve({ category, products: [], page: 1, totalPages: 0 });
   }
 
   const keyword = CATEGORY_KEYWORDS[category] || category;
@@ -36,12 +38,15 @@ function getProductsByCategory(category) {
   })
     .then((res) => (res.ok ? res.json() : Promise.reject(new Error(res.status))))
     .then((data) => {
-      const products = mapAxessoResponseToProducts(data, ASSOCIATE_TAG);
-      return { category, products };
+      const allProducts = mapAxessoResponseToProducts(data, ASSOCIATE_TAG);
+      const totalPages = Math.ceil(allProducts.length / PRODUCTS_PER_PAGE);
+      const startIdx = (page - 1) * PRODUCTS_PER_PAGE;
+      const products = allProducts.slice(startIdx, startIdx + PRODUCTS_PER_PAGE);
+      return { category, products, page, totalPages, totalProducts: allProducts.length };
     })
     .catch((err) => {
       console.warn('Axesso/RapidAPI search error:', err.message || err);
-      return { category, products: [] };
+      return { category, products: [], page: 1, totalPages: 0 };
     });
 }
 
@@ -55,7 +60,7 @@ function mapAxessoResponseToProducts(data, tag) {
     (Array.isArray(data) ? data : []);
   if (!Array.isArray(items)) return [];
 
-  return items.slice(0, 12).map((item, i) => {
+  return items.slice(0, 40).map((item, i) => {
     const asin = item.asin || item.ASIN || item.id || '';
     const title = item.title || item.productTitle || item.name || '';
     const price = item.price?.raw ?? item.price ?? item.listPrice ?? item.formattedPrice ?? 'Price varies';

@@ -11,15 +11,17 @@
  */
 
 const CATEGORY_KEYWORDS = {
-  shoes: "men's dress shoes",
-  shirts: "men's polo shirt",
-  pants: "men's dress slacks",
-  merch: "leather briefcase men's accessories",
-  travel: "travel duffel bag",
-  collectables: "collectible figurine",
+  shoes: "men's dress shoes casual sneakers oxford loafers",
+  shirts: "men's graphic tees streetwear fashion shirts",
+  pants: "men's pants trousers chinos joggers goodfellow dress casual",
+  merch: "men's accessories watches wallets bags hats caps",
+  travel: "travel bags backpacks luggage duffel carry-on",
+  collectables: "collectibles figurines memorabilia vintage decor",
 };
 
-function getProductsByCategory(category) {
+const PRODUCTS_PER_PAGE = 8;
+
+function getProductsByCategory(category, page = 1) {
   const accessKey = process.env.AMAZON_ACCESS_KEY;
   const secretKey = process.env.AMAZON_SECRET_KEY;
   const associateTag = process.env.AMAZON_ASSOCIATE_TAG;
@@ -28,14 +30,22 @@ function getProductsByCategory(category) {
     console.warn(
       'Amazon PA-API: missing AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, or AMAZON_ASSOCIATE_TAG. Add to .env and restart.'
     );
-    return Promise.resolve({ category, products: [] });
+    return Promise.resolve({ category, products: [], page: 1, totalPages: 0 });
   }
 
   const keywords = CATEGORY_KEYWORDS[category] || category;
-  return searchItems(keywords, associateTag).then((items) => ({
-    category,
-    products: items,
-  }));
+  return searchItems(keywords, associateTag).then((allProducts) => {
+    const totalPages = Math.ceil(allProducts.length / PRODUCTS_PER_PAGE);
+    const startIdx = (page - 1) * PRODUCTS_PER_PAGE;
+    const products = allProducts.slice(startIdx, startIdx + PRODUCTS_PER_PAGE);
+    return {
+      category,
+      products,
+      page,
+      totalPages,
+      totalProducts: allProducts.length,
+    };
+  });
 }
 
 /**

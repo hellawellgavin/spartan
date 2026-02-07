@@ -1,11 +1,15 @@
 /**
  * Category product grid: loads from API (mock or live) with spinning logo loader.
  * Same payload shape: { category, products: [{ id, title, price, imageUrl, productUrl }] }.
+ * Supports pagination for API sources.
  */
 (function () {
   const grid = document.querySelector('.product-grid[data-load-products]');
   const category = grid && grid.getAttribute('data-category');
   if (!grid || !category) return;
+
+  let currentPage = 1;
+  let totalPages = 1;
 
   const apiUrl = '/api/products/' + encodeURIComponent(category);
 
@@ -18,8 +22,11 @@
     `;
   }
 
-  function render(products) {
-    grid.innerHTML = products
+  function render(products, page, pages) {
+    currentPage = page || 1;
+    totalPages = pages || 1;
+    
+    const productsHtml = products
       .map(
         (p) => `
       <article class="product-card">
@@ -34,6 +41,44 @@
     `
       )
       .join('');
+
+    const paginationHtml = totalPages > 1 ? `
+      <div class="pagination">
+        <button class="pagination-btn" id="prev-page" ${currentPage <= 1 ? 'disabled' : ''}>
+          &laquo; Previous
+        </button>
+        <span class="pagination-info">Page ${currentPage} of ${totalPages}</span>
+        <button class="pagination-btn" id="next-page" ${currentPage >= totalPages ? 'disabled' : ''}>
+          Next &raquo;
+        </button>
+      </div>
+    ` : '';
+
+    grid.innerHTML = productsHtml + paginationHtml;
+
+    // Add pagination event listeners
+    if (totalPages > 1) {
+      const prevBtn = document.getElementById('prev-page');
+      const nextBtn = document.getElementById('next-page');
+      
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+          if (currentPage > 1) {
+            load(currentPage - 1);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        });
+      }
+      
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          if (currentPage < totalPages) {
+            load(currentPage + 1);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        });
+      }
+    }
   }
 
   function showError(msg) {
@@ -53,13 +98,16 @@
     return div.innerHTML;
   }
 
-  function load() {
+  function load(page = 1) {
     showLoader();
-    fetch(apiUrl)
+    const url = `${apiUrl}?page=${page}`;
+    fetch(url)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error('API ' + r.status))))
       .then((data) => {
         const list = data && Array.isArray(data.products) ? data.products : [];
-        if (list.length) render(list);
+        const pages = data.totalPages || 1;
+        const currentPg = data.page || 1;
+        if (list.length) render(list, currentPg, pages);
         else showError('No products available for this category.');
       })
       .catch(() => showError('Could not load products. Start the server (npm start).'));

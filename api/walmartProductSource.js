@@ -9,25 +9,26 @@
 
 const DEFAULT_HOST = 'axesso-walmart-data-service.p.rapidapi.com';
 const CATEGORY_KEYWORDS = {
-  shoes: "men's dress shoes",
-  shirts: "men's polo shirt",
-  pants: "men's dress slacks",
-  merch: "leather briefcase",
-  travel: "travel duffel bag",
-  collectables: "collectible figurine",
+  shoes: "men's dress shoes casual sneakers oxford loafers",
+  shirts: "men's graphic tees streetwear fashion shirts",
+  pants: "men's pants trousers chinos joggers goodfellow dress casual",
+  merch: "men's accessories watches wallets bags hats caps",
+  travel: "travel bags backpacks luggage duffel carry-on",
+  collectables: "collectibles figurines memorabilia vintage decor",
 };
 
-function getProductsByCategory(category) {
+const PRODUCTS_PER_PAGE = 8;
+
+function getProductsByCategory(category, page = 1) {
   const key = process.env.RAPIDAPI_KEY;
   const host = process.env.WALMART_RAPIDAPI_HOST || DEFAULT_HOST;
 
   if (!key) {
-    return Promise.resolve({ category, products: [] });
+    return Promise.resolve({ category, products: [], page: 1, totalPages: 0 });
   }
 
   const keyword = CATEGORY_KEYWORDS[category] || category;
   const searchPath = process.env.WALMART_SEARCH_PATH || '/wlm/walmart-search-by-keyword';
-  const page = 1;
   const url = `https://${host}${searchPath}?keyword=${encodeURIComponent(keyword)}&page=${page}`;
 
   return fetch(url, {
@@ -45,12 +46,15 @@ function getProductsByCategory(category) {
       return res.json();
     })
     .then((data) => {
-      const products = mapWalmartResponseToProducts(data);
-      return { category, products };
+      const allProducts = mapWalmartResponseToProducts(data);
+      const totalPages = Math.ceil(allProducts.length / PRODUCTS_PER_PAGE);
+      const startIdx = (page - 1) * PRODUCTS_PER_PAGE;
+      const products = allProducts.slice(startIdx, startIdx + PRODUCTS_PER_PAGE);
+      return { category, products, page, totalPages, totalProducts: allProducts.length };
     })
     .catch((err) => {
       console.warn('Walmart/RapidAPI search error:', err.message || err);
-      return { category, products: [] };
+      return { category, products: [], page: 1, totalPages: 0 };
     });
 }
 
@@ -81,7 +85,7 @@ function mapWalmartResponseToProducts(data) {
   }
   if (!Array.isArray(items)) return [];
 
-  return items.slice(0, 12).map((item, i) => {
+  return items.slice(0, 40).map((item, i) => {
     const id = item.usItemId || item.id || item.itemId || item.productId || 'walmart-' + i;
     const title = item.name || item.title || item.productTitle || '';
     const priceInfo = item.priceInfo;

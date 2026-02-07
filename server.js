@@ -29,7 +29,8 @@ app.use(express.static(ROOT));
 app.get('/api/products/:category', async (req, res) => {
   try {
     const { category } = req.params;
-    const payload = await getProductsByCategory(category);
+    const page = parseInt(req.query.page) || 1;
+    const payload = await getProductsByCategory(category, page);
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
     res.setHeader('Pragma', 'no-cache');
     res.setHeader('Expires', '0');

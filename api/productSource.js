@@ -69,13 +69,15 @@ function getProductSource(category) {
   return mockProductSource;
 }
 
-async function getProductsByCategory(category) {
+async function getProductsByCategory(category, page = 1) {
   const normalized = (category || '').toLowerCase().trim();
   if (!VALID_CATEGORIES.includes(normalized)) {
-    return { category: normalized, products: [] };
+    return { category: normalized, products: [], page: 1, totalPages: 0 };
   }
   const source = getProductSource(normalized);
-  return source.getProductsByCategory(normalized);
+  
+  // All sources now support pagination
+  return source.getProductsByCategory(normalized, page);
 }
 
 async function getProductByCategoryAndId(category, id) {
