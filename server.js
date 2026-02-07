@@ -1,7 +1,7 @@
 /**
  * Souvenir Spartan – API and static site server.
- * - Serves static files (HTML, CSS, JS, assets, data/) from project root.
- * - GET /api/products/:category → products for that category (mock or live Amazon).
+ * Serves static files (HTML, CSS, JS, assets, data/) from project root.
+ * GET /api/products/:category → products (Walmart RapidAPI or mock per .env).
  */
 
 require('dotenv').config();
@@ -30,6 +30,9 @@ app.get('/api/products/:category', async (req, res) => {
   try {
     const { category } = req.params;
     const payload = await getProductsByCategory(category);
+    res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+    res.setHeader('Expires', '0');
     res.json(payload);
   } catch (err) {
     console.error(err);
@@ -37,7 +40,7 @@ app.get('/api/products/:category', async (req, res) => {
   }
 });
 
-// Single product – same API shape for mock/live (when Amazon wired, use GetItems by ASIN)
+// Single product – same shape for mock or live (Walmart/Amazon)
 app.get('/api/product/:category/:id', async (req, res) => {
   try {
     const { category, id } = req.params;

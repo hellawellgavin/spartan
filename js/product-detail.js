@@ -63,7 +63,8 @@
     var buyAttrs = hasProductUrl(product.productUrl)
       ? 'href="' + escapeHtml(product.productUrl) + '" target="_blank" rel="noopener noreferrer nofollow sponsored"'
       : 'href="#" aria-disabled="true"';
-    var buyHtml = '<a ' + buyAttrs + ' class="product-detail-cta">Buy on Amazon</a>';
+    var buyLabel = (product.productUrl || '').indexOf('walmart.com') !== -1 ? 'Buy on Walmart' : 'Buy on Amazon';
+    var buyHtml = '<a ' + buyAttrs + ' class="product-detail-cta">' + escapeHtml(buyLabel) + '</a>';
 
     container.innerHTML = `
       <nav class="product-detail-breadcrumb">

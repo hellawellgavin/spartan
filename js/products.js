@@ -1,5 +1,5 @@
 /**
- * Category product grid: loads from API (mock or live) or fallback to static JSON.
+ * Category product grid: loads from API (mock or live) with spinning logo loader.
  * Same payload shape: { category, products: [{ id, title, price, imageUrl, productUrl }] }.
  */
 (function () {
@@ -8,7 +8,15 @@
   if (!grid || !category) return;
 
   const apiUrl = '/api/products/' + encodeURIComponent(category);
-  const fallbackUrl = '/data/products/' + encodeURIComponent(category) + '.json';
+
+  function showLoader() {
+    grid.innerHTML = `
+      <div class="products-loader">
+        <img src="assets/spartan.png" alt="Loading..." class="loader-spinner">
+        <p>Loading products...</p>
+      </div>
+    `;
+  }
 
   function render(products) {
     grid.innerHTML = products
@@ -46,27 +54,15 @@
   }
 
   function load() {
+    showLoader();
     fetch(apiUrl)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error('API ' + r.status))))
       .then((data) => {
         const list = data && Array.isArray(data.products) ? data.products : [];
         if (list.length) render(list);
-        else tryFallback();
+        else showError('No products available for this category.');
       })
-      .catch(() => tryFallback());
-  }
-
-  function tryFallback() {
-    fetch(fallbackUrl)
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error('Fallback ' + r.status))))
-      .then((data) => {
-        const list = data && Array.isArray(data.products) ? data.products : [];
-        if (list.length) render(list);
-        else showError('No products available. Start the server for API or ensure data files are served.');
-      })
-      .catch(() =>
-        showError('Could not load products. Start the server (npm start) or serve this folder with /data/ available.')
-      );
+      .catch(() => showError('Could not load products. Start the server (npm start).'));
   }
 
   load();
