@@ -3,7 +3,7 @@
  * Run: node scripts/test-walmart-api.js
  * Uses RAPIDAPI_KEY and WALMART_* from .env. Ensures productSource returns real Walmart products.
  */
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+require('dotenv').config({ path: require('path').join(__dirname, '../../../.env') });
 
 const { getProductsByCategory, getSourceDescription } = require('../api/productSource');
 

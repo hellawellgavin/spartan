@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DATA_DIR = path.join(__dirname, '..', 'data', 'products');
+const DATA_DIR = path.join(__dirname, '../../public/data/products');
 const PRODUCTS_PER_PAGE = 8;
 
 function getProductsByCategory(category, page = 1) {

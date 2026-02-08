@@ -4,7 +4,7 @@
  * Uses .env; does not start the server.
  */
 
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+require('dotenv').config({ path: require('path').join(__dirname, '../../../.env') });
 const { getProductsByCategory, getProductSource, getSourceDescription, VALID_CATEGORIES } = require('../api/productSource');
 
 const mockProductSource = require('../api/mockProductSource');

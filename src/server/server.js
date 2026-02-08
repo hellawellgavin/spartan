@@ -4,14 +4,14 @@
  * GET /api/products/:category → products (Walmart RapidAPI or mock per .env).
  */
 
-require('dotenv').config();
+require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 const express = require('express');
 const path = require('path');
 const { getProductsByCategory, getProductByCategoryAndId, getSourceDescription } = require('./api/productSource');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const ROOT = path.join(__dirname);
+const PUBLIC_DIR = path.join(__dirname, '../public');
 
 // CORS so frontend can call API from same origin or different port
 app.use((req, res, next) => {
@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 // Static site + data (so /data/products/shoes.json works for static fallback)
-app.use(express.static(ROOT));
+app.use(express.static(PUBLIC_DIR));
 
 // Product API – single entry point; mock or live based on env
 app.get('/api/products/:category', async (req, res) => {

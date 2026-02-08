@@ -5,13 +5,13 @@
  * Requires: RAPIDAPI_KEY in .env (Axesso - Amazon Data Service on RapidAPI).
  */
 
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+require('dotenv').config({ path: require('path').join(__dirname, '../../../.env') });
 const fs = require('fs');
 const path = require('path');
 
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 const RAPIDAPI_HOST = process.env.RAPIDAPI_HOST || 'axesso-amazon-data-service1.p.rapidapi.com';
-const SHOES_PATH = path.join(__dirname, '..', 'data', 'products', 'shoes.json');
+const SHOES_PATH = path.join(__dirname, '../../public/data/products/shoes.json');
 const ASSOCIATE_PICK_ID = '3NVecvV';
 
 const ENDPOINTS_TO_TRY = [

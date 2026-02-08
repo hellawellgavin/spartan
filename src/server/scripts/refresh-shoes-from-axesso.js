@@ -4,7 +4,7 @@
  * Requires: RAPIDAPI_KEY in .env (get free key at rapidapi.com, subscribe to Axesso Amazon Data Service BASIC).
  */
 
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+require('dotenv').config({ path: require('path').join(__dirname, '../../../.env') });
 const fs = require('fs');
 const path = require('path');
 
@@ -50,7 +50,7 @@ fetch(url, {
     });
 
     const out = { category: 'shoes', products };
-    const outPath = path.join(__dirname, '..', 'data', 'products', 'shoes.json');
+    const outPath = path.join(__dirname, '../../public/data/products/shoes.json');
     fs.writeFileSync(outPath, JSON.stringify(out, null, 2), 'utf8');
     console.log('Wrote', products.length, 'shoes to data/products/shoes.json with real Amazon images and links.');
   })

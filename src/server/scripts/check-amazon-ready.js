@@ -4,7 +4,7 @@
  * Uses .env in project root. Does not print your keys.
  */
 
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
+require('dotenv').config({ path: require('path').join(__dirname, '../../../.env') });
 
 const accessKey = process.env.AMAZON_ACCESS_KEY;
 const secretKey = process.env.AMAZON_SECRET_KEY;

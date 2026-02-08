@@ -30,7 +30,7 @@
       .map(
         (p) => `
       <article class="product-card">
-        <a href="product.html?category=${encodeURIComponent(category)}&id=${encodeURIComponent(p.id)}">
+        <a href="../product.html?category=${encodeURIComponent(category)}&id=${encodeURIComponent(p.id)}">
           <img src="${escapeHtml(p.imageUrl || '')}" alt="${escapeHtml(p.title || '')}" loading="lazy">
           <div class="product-info">
             <h3 class="product-name">${escapeHtml(p.title || '')}</h3>
