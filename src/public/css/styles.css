@@ -287,7 +287,7 @@ main {
   border-radius: var(--radius);
   overflow: hidden;
   border: 2px solid var(--gold-dark);
-  background: white;
+  background: var(--black-soft);
 }
 .product-detail-image {
   width: 100%;

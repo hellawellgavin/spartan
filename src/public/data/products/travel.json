@@ -1,6 +1,22 @@
 {
   "category": "travel",
   "products": [
+    { 
+      "id": "spartan-blood-legion", 
+      "title": "Spartan Blood Legion Tactical Backpack - Elite Series", 
+      "price": "$129.99", 
+      "imageUrl": "../../assets/travel-backpack-blood-red-spartan.png", 
+      "productUrl": "#", 
+      "summary": "Premium tactical travel backpack in blood red with the iconic Spartan shield emblem. Built for warriors who demand durability and style. Features USB charging port, laptop compartment, and reinforced construction.", 
+      "sizes": ["40L", "50L"], 
+      "colors": ["Blood Red", "Shadow Black", "Combat Olive"], 
+      "details": [
+        { "label": "Material", "value": "Military-Grade Ripstop Nylon" }, 
+        { "label": "Capacity", "value": "40L / 50L" },
+        { "label": "Features", "value": "USB Port, Anti-Theft, Water-Resistant" },
+        { "label": "Laptop Sleeve", "value": "Up to 17\"" }
+      ] 
+    },
     { "id": "travel-1", "title": "Duffel Bag Pro", "price": "$89.99", "imageUrl": "https://picsum.photos/id/28/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Spacious duffel with multiple compartments. Built for gym, travel, or weekend trips.", "sizes": ["40L", "60L"], "colors": ["Black", "Navy", "Olive", "Grey"], "details": [{ "label": "Material", "value": "Nylon" }, { "label": "Capacity", "value": "40L / 60L" }] },
     { "id": "travel-2", "title": "Travel Backpack", "price": "$74.99", "imageUrl": "https://picsum.photos/id/29/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Carry-on friendly backpack with laptop sleeve and organizer pockets.", "sizes": ["25L", "35L"], "colors": ["Black", "Navy", "Charcoal"], "details": [{ "label": "Material", "value": "Polyester" }, { "label": "Laptop sleeve", "value": "Up to 15\"" }] },
     { "id": "travel-3", "title": "Passport Holder", "price": "$24.99", "imageUrl": "https://picsum.photos/id/30/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Slim RFID-blocking passport holder. Keeps documents safe and organized.", "sizes": ["One Size"], "colors": ["Black", "Brown", "Navy", "Burgundy"], "details": [{ "label": "Material", "value": "Leather" }, { "label": "RFID", "value": "Blocking" }] },
