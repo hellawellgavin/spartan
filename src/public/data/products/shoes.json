@@ -1,11 +1,84 @@
 {
   "category": "shoes",
   "products": [
-    { "id": "B0F7M733H8", "title": "Amazon Essentials Men's Oxford Dress Shoes, Black", "price": "$37.50", "imageUrl": "https://images.unsplash.com/photo-1765779362274-5d8eedb9c6b8?w=400&h=400&fit=crop", "productUrl": "https://www.amazon.com/dp/B0F7M733H8?tag=souvenirspartan-20", "summary": "Faux leather upper, breathable foam insole, lace-up closure. Classic oxford style for dress or casual wear.", "sizes": ["7", "8", "9", "10", "11", "12", "13"], "colors": ["Black", "Brown"], "details": [{ "label": "Material", "value": "Faux leather" }, { "label": "Closure", "value": "Lace-up" }] },
-    { "id": "B014MCBA32", "title": "Florsheim Men's Modern Oxford", "price": "$189.95", "imageUrl": "https://images.unsplash.com/photo-1549298916-b4d2d6e8b8c8?w=400&h=400&fit=crop", "productUrl": "https://www.amazon.com/dp/B014MCBA32?tag=souvenirspartan-20", "summary": "Calfskin leather upper, sheepskin linings, Comfortech footbed, leather sole. Available in X-Wide.", "sizes": ["7", "8", "9", "10", "11", "12", "13"], "colors": ["Black"], "details": [{ "label": "Material", "value": "Calfskin leather" }, { "label": "Sole", "value": "Leather" }] },
-    { "id": "B011MHBP2Q", "title": "Carrucci Men's Signature Lace-up Dress Shoe", "price": "$89.99", "imageUrl": "https://images.unsplash.com/photo-1533867612-9a2a66d37556?w=400&h=400&fit=crop", "productUrl": "https://www.amazon.com/dp/B011MHBP2Q?tag=souvenirspartan-20", "summary": "Burnished calfskin upper, medallion toe pattern, leather and fabric lining. Classic oxford design.", "sizes": ["7", "8", "9", "10", "11", "12"], "colors": ["Black", "Chestnut", "Cognac", "Navy", "Grey"], "details": [{ "label": "Material", "value": "Calfskin" }, { "label": "Style", "value": "Oxford" }] },
-    { "id": "B0CPT888MP", "title": "Men's Square Toe Oxford Genuine Leather Lace Up Dress Shoe", "price": "$98.97", "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=400&h=400&fit=crop", "productUrl": "https://www.amazon.com/dp/B0CPT888MP?tag=souvenirspartan-20", "summary": "Genuine leather upper, rubber sole, square toe. For business, party, work, or wedding.", "sizes": ["7", "8", "9", "10", "11", "12"], "colors": ["Black", "Brown"], "details": [{ "label": "Material", "value": "Genuine leather" }, { "label": "Sole", "value": "Rubber" }] },
-    { "id": "B09V3KXJPB", "title": "Men's Dress Shoes Lace Up Oxford Business Formal", "price": "$45.99", "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400&h=400&fit=crop", "productUrl": "https://www.amazon.com/dp/B09V3KXJPB?tag=souvenirspartan-20", "summary": "Classic oxford dress shoes for business and formal occasions. Comfortable and versatile.", "sizes": ["7", "8", "9", "10", "11", "12"], "colors": ["Black", "Brown"], "details": [{ "label": "Style", "value": "Oxford" }, { "label": "Fit", "value": "True to size" }] },
-    { "id": "3NVecvV", "title": "Associate Pick – Dress Shoes", "price": "See Amazon", "imageUrl": "https://images.unsplash.com/photo-1597049250489-49f2b2d274e9?w=400&h=400&fit=crop", "productUrl": "https://amzn.to/3NVecvV", "summary": "Shoe product from your Amazon Associates Sitestripe link. Click Buy on Amazon for current price and details.", "sizes": ["See Amazon"], "colors": ["See Amazon"], "details": [{ "label": "Link", "value": "Associates Sitestripe" }] }
+    {
+      "id": "jousen-amy9216",
+      "title": "Jousen Men's Dress Shoes Leather Wingtip Formal Business Oxford Shoes",
+      "price": "$69.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/81-zyBllmIL._AC_SX695_.jpg",
+      "productUrl": "https://amzn.to/4roKyOF",
+      "summary": "Premium leather dress shoes with wingtip brogue design. Perfect for formal occasions, business meetings, and weddings. Features comfortable leather lining and rubber sole.",
+      "sizes": ["8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13", "13.5", "14", "14.5", "15"],
+      "colors": ["Black", "Brown", "Yellow Brown", "Dark Brown"],
+      "details": [
+        { "label": "Material", "value": "100% Genuine Leather" },
+        { "label": "Sole", "value": "Rubber" },
+        { "label": "Style", "value": "Wingtip Brogue Oxford" },
+        { "label": "Rating", "value": "4.5/5 stars" }
+      ]
+    },
+    {
+      "id": "shoe-4kkfzjK",
+      "title": "Men's Oxfords Dress Shoes: Casual Business Men Tuxedo Shoe Formal Plain Toe Derby Oxford",
+      "price": "$45.09",
+      "imageUrl": "https://m.media-amazon.com/images/I/61PMrbIHGrL._AC_SY695_.jpg",
+      "productUrl": "https://amzn.to/4kkfzjK",
+      "summary": "Classic oxford dress shoes perfect for business, formal events, and tuxedo occasions. Features plain toe derby design with quality construction.",
+      "sizes": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "colors": ["Black", "Brown"],
+      "details": [
+        { "label": "Style", "value": "Plain Toe Derby Oxford" },
+        { "label": "Occasion", "value": "Business, Formal, Tuxedo" },
+        { "label": "Rating", "value": "4.4/5 stars" }
+      ]
+    },
+    {
+      "id": "vans-45RL8M6",
+      "title": "Vans Mens Brooklyn Ls",
+      "price": "$69.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/61ABx1cI7BL._AC_SY695_.jpg",
+      "productUrl": "https://amzn.to/45RL8M6",
+      "summary": "Classic Vans Brooklyn sneakers with signature style. Perfect for casual everyday wear with comfortable fit and iconic Vans design.",
+      "sizes": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "colors": ["Black", "White", "Navy"],
+      "details": [
+        { "label": "Brand", "value": "Vans" },
+        { "label": "Style", "value": "Brooklyn Ls Sneaker" },
+        { "label": "Type", "value": "Casual Sneakers" },
+        { "label": "Rating", "value": "4.3/5 stars" }
+      ]
+    },
+    {
+      "id": "kswiss-4kkgCQI",
+      "title": "K-Swiss Men's Classic VN Leather Sneaker",
+      "price": "$59.95",
+      "imageUrl": "https://m.media-amazon.com/images/I/71tgJ8FZzPL._AC_SX695_.jpg",
+      "productUrl": "https://amzn.to/4kkgCQI",
+      "summary": "Classic K-Swiss leather sneakers with timeless design. Features premium leather construction and signature K-Swiss style for versatile casual wear.",
+      "sizes": ["7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13"],
+      "colors": ["White", "Black", "Navy"],
+      "details": [
+        { "label": "Brand", "value": "K-Swiss" },
+        { "label": "Material", "value": "Leather" },
+        { "label": "Style", "value": "Classic VN Sneaker" },
+        { "label": "Rating", "value": "4.4/5 stars" }
+      ]
+    },
+    {
+      "id": "led-4qnHqkE",
+      "title": "Unisex LED Light Up Shoes, Fashion High Top LED Sneakers USB Rechargeable Glowing Luminous Shoes for Men, Women, Teens",
+      "price": "$42.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/61YmwdpSYjL._AC_SY695_.jpg",
+      "productUrl": "https://amzn.to/4qnHqkE",
+      "summary": "Fashion high top LED sneakers with USB rechargeable glowing lights. Fun and unique shoes perfect for parties, events, and making a statement.",
+      "sizes": ["6", "7", "8", "9", "10", "11", "12"],
+      "colors": ["Black", "White", "Multi-Color LED"],
+      "details": [
+        { "label": "Type", "value": "LED Light Up Sneakers" },
+        { "label": "Features", "value": "USB Rechargeable" },
+        { "label": "Style", "value": "High Top Fashion Sneaker" },
+        { "label": "Rating", "value": "4.2/5 stars" }
+      ]
+    }
   ]
 }

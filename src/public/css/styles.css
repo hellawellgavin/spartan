@@ -227,8 +227,14 @@ main {
 .product-card img {
   width: 100%;
   aspect-ratio: 1;
+  object-fit: contain;
+  background: white;
+}
+
+/* Merch category: fill card without white bars */
+.product-grid[data-category="merch"] .product-card img {
   object-fit: cover;
-  background: var(--red-dark);
+  background: var(--black-soft);
 }
 .product-card .product-info {
   padding: 1rem;
@@ -281,12 +287,12 @@ main {
   border-radius: var(--radius);
   overflow: hidden;
   border: 2px solid var(--gold-dark);
-  background: var(--red-dark);
+  background: white;
 }
 .product-detail-image {
   width: 100%;
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 .product-detail-info {

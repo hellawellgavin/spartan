@@ -1,0 +1,63 @@
+---
+description: Product data sourcing policy - Real affiliate products only
+alwaysApply: true
+---
+
+# Product Data Source Policy
+
+## CRITICAL RULE: REAL PRODUCTS ONLY
+
+**Two Valid Approaches:**
+
+### ✅ ALLOWED: Dynamic API Approach
+Pull real-time product data from retailer APIs (Walmart, Amazon, Target, etc.)
+
+### ✅ ALLOWED: Static Curated Affiliate Approach
+Manually curated collections with YOUR real affiliate links:
+- Real products from real retailers
+- Real affiliate links (Amazon Associates, Hot Topic Partner, etc.)
+- Real product details (prices, images, descriptions)
+- Stored in JSON for static display
+
+**Example of ALLOWED static product:**
+```json
+{
+  "id": "amz-B0F7M733H8",
+  "title": "Real Product Name from Amazon",
+  "price": "$49.99",
+  "imageUrl": "https://amazon.com/real-image-url",
+  "productUrl": "https://amazon.com/dp/B0F7M733H8?tag=YOUR-AFFILIATE-TAG",
+  "summary": "Real product description"
+}
+```
+
+## Forbidden Actions
+
+❌ **NEVER** use fake/mock product APIs (FakeStoreAPI, DummyJSON, etc.)
+❌ **NEVER** create fictional products that don't exist
+❌ **NEVER** suggest mock data APIs as alternatives
+❌ **NEVER** use placeholder/dummy affiliate links
+❌ **NEVER** recommend "free unlimited mock APIs"
+
+## Valid Approaches
+
+✅ **DO** use real affiliate links from Amazon Associates, Hot Topic, Target, etc.
+✅ **DO** manually curate products from real retailers
+✅ **DO** store YOUR curated affiliate products in JSON
+✅ **DO** use dynamic APIs from real retailers
+✅ **DO** mix both approaches (some static, some dynamic)
+
+## The Difference
+
+**ALLOWED**: Real product from Amazon with your affiliate link stored in JSON
+**FORBIDDEN**: Fake product from "FakeStoreAPI" pretending to be real
+
+## When Setting Up Curated Products
+
+✅ User must have real affiliate accounts
+✅ Products must exist on real retailer websites
+✅ Links must be real affiliate links earning real commissions
+✅ Images can be from retailer CDNs or stored locally
+✅ Data can be static in JSON files
+
+This is legitimate affiliate marketing, not mock data.

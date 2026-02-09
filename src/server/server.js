@@ -4,9 +4,9 @@
  * GET /api/products/:category → products (Walmart RapidAPI or mock per .env).
  */
 
+const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 const express = require('express');
-const path = require('path');
 const { getProductsByCategory, getProductByCategoryAndId, getSourceDescription } = require('./api/productSource');
 
 const app = express();

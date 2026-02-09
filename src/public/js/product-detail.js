@@ -68,9 +68,9 @@
 
     container.innerHTML = `
       <nav class="product-detail-breadcrumb">
-        <a href="index.html">Home</a>
+        <a href="../index.html">Home</a>
         <span class="breadcrumb-sep">/</span>
-        <a href="${escapeHtml(category || '')}.html">${escapeHtml(category ? category.charAt(0).toUpperCase() + category.slice(1) : '')}</a>
+        <a href="categories/${escapeHtml(category || '')}.html">${escapeHtml(category ? category.charAt(0).toUpperCase() + category.slice(1) : '')}</a>
         <span class="breadcrumb-sep">/</span>
         <span>${escapeHtml(title)}</span>
       </nav>
