@@ -1,10 +1,125 @@
 {
   "category": "shirts",
   "products": [
-    { "id": "shirts-1", "title": "Molon Labe Tee", "price": "$29.99", "imageUrl": "https://picsum.photos/id/51/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Bold graphic tee featuring the iconic Molon Labe phrase. Soft cotton, perfect for casual wear.", "sizes": ["S", "M", "L", "XL", "2XL"], "colors": ["Black", "Navy", "Charcoal", "Red"], "details": [{ "label": "Material", "value": "100% cotton" }, { "label": "Fit", "value": "Regular" }] },
-    { "id": "shirts-2", "title": "Spartan Shield Hoodie", "price": "$59.99", "imageUrl": "https://picsum.photos/id/52/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Heavyweight hoodie with embroidered Spartan shield. Cozy fleece lining for cool days.", "sizes": ["S", "M", "L", "XL", "2XL"], "colors": ["Black", "Heather Grey", "Navy", "Burgundy"], "details": [{ "label": "Material", "value": "Cotton/polyester blend" }, { "label": "Fit", "value": "Relaxed" }] },
-    { "id": "shirts-3", "title": "Thermopylae Long Sleeve", "price": "$39.99", "imageUrl": "https://picsum.photos/id/53/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Long-sleeve tee with Thermopylae-inspired design. Lightweight and breathable.", "sizes": ["S", "M", "L", "XL", "2XL"], "colors": ["Olive", "Black", "Army Green", "Brown"], "details": [{ "label": "Material", "value": "Cotton jersey" }, { "label": "Fit", "value": "Regular" }] },
-    { "id": "shirts-4", "title": "Helmet Logo Tank", "price": "$24.99", "imageUrl": "https://picsum.photos/id/54/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Classic tank with Spartan helmet logo. Ideal for gym or summer.", "sizes": ["S", "M", "L", "XL"], "colors": ["Black", "White", "Grey", "Red"], "details": [{ "label": "Material", "value": "100% cotton" }, { "label": "Fit", "value": "Standard" }] },
-    { "id": "shirts-5", "title": "Legacy Polo", "price": "$44.99", "imageUrl": "https://picsum.photos/id/55/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Premium polo with subtle Spartan branding. Dress it up or down.", "sizes": ["S", "M", "L", "XL", "2XL"], "colors": ["Navy", "Black", "White", "Burgundy", "Green"], "details": [{ "label": "Material", "value": "Pima cotton" }, { "label": "Fit", "value": "Classic" }] }
+    {
+      "id": "walmart-15563221134",
+      "title": "Nirvana Men's Smiley Striped Graphic Tee",
+      "price": "$16.98",
+      "imageUrl": "/assets/products/shirts/shirt-1.jpg",
+      "productUrl": "https://www.walmart.com/ip/Nirvana-Striped-Men-s-Big-Men-s-Graphic-Tee-Shirt-Sizes-S-3XL/15563221134?wmlspartner=YOUR_PARTNER_ID",
+      "summary": "Features Nirvana smiley front graphics and a striped pattern. Made from 60% cotton and 40% polyester.",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black/Yellow", "White"],
+      "details": [
+        { "label": "Material", "value": "60% cotton / 40% polyester" },
+        { "label": "Fit", "value": "Regular" },
+        { "label": "Rating", "value": "4.8/5 (4 reviews)" }
+      ]
+    },
+    {
+      "id": "walmart-9370572438",
+      "title": "South Park Cartman 'Respect My Authority' Tee",
+      "price": "$19.99",
+      "imageUrl": "/assets/products/shirts/shirt-2.jpg",
+      "productUrl": "https://www.walmart.com/ip/South-Park-Mens-Big-Men-s-Graphic-Tee-Shirt-Cartman-Sizes-S-3XL/9370572438?wmlspartner=YOUR_PARTNER_ID",
+      "summary": "Cartman graphic tee featuring 'Respect My Authority'. Classic South Park character design.",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Red"],
+      "details": [
+        { "label": "Material", "value": "60% cotton / 40% polyester" },
+        { "label": "Fit", "value": "Regular" },
+        { "label": "Rating", "value": "4.7/5 (154 reviews)" }
+      ]
+    },
+    {
+      "id": "walmart-599159676",
+      "title": "SpongeBob SquarePants Character Group Tee",
+      "price": "$12.98",
+      "imageUrl": "/assets/products/shirts/shirt-3.jpg",
+      "productUrl": "https://www.walmart.com/ip/SpongeBob-SquarePants-Character-Group-Shot-Men-s-Big-Men-s-Graphic-Tee-Sizes-S-3XL/599159676?wmlspartner=YOUR_PARTNER_ID",
+      "summary": "SpongeBob and friends group shot graphic. 100% cotton, machine washable.",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Yellow", "Navy", "White"],
+      "details": [
+        { "label": "Material", "value": "100% cotton" },
+        { "label": "Fit", "value": "Regular" },
+        { "label": "Licensed", "value": "Nickelodeon" }
+      ]
+    },
+    {
+      "id": "walmart-16336561774",
+      "title": "Netflix Stranger Things Logo Tee",
+      "price": "$12.98",
+      "imageUrl": "/assets/products/shirts/shirt-4.jpg",
+      "productUrl": "https://www.walmart.com/ip/Stranger-Things-Men-s-Big-Men-s-Graphic-Tee-Sizes-S-3XL/16336561774?wmlspartner=YOUR_PARTNER_ID",
+      "summary": "Netflix Stranger Things logo design. 100% cotton, soft and breathable with relaxed fit.",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Maroon"],
+      "details": [
+        { "label": "Material", "value": "100% cotton" },
+        { "label": "Fit", "value": "Relaxed" },
+        { "label": "Rating", "value": "4.5/5 (13 reviews)" }
+      ]
+    },
+    {
+      "id": "walmart-13574752283",
+      "title": "Nintendo 8-Bit Icons Graphic T-Shirt",
+      "price": "$12.99",
+      "imageUrl": "/assets/products/shirts/shirt-5.jpg",
+      "productUrl": "https://www.walmart.com/ip/Men-s-Nintendo-8-Bit-Icons-Graphic-T-Shirt/13574752283?wmlspartner=YOUR_PARTNER_ID",
+      "summary": "Pixelated Nintendo characters including Mario, Luigi, Princess Peach, and classic enemies from 1985.",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Grey"],
+      "details": [
+        { "label": "Material", "value": "100% cotton" },
+        { "label": "Fit", "value": "Regular" },
+        { "label": "Rating", "value": "5.0/5 (1 review)" }
+      ]
+    },
+    {
+      "id": "walmart-2599230000",
+      "title": "Rick & Morty Embroidered Graphic Tee",
+      "price": "$12.98",
+      "imageUrl": "/assets/products/shirts/shirt-6.jpg",
+      "productUrl": "https://www.walmart.com/ip/Rick-Morty-Men-s-Big-Men-s-Embroidered-Graphic-Tee-Shirt-Sizes-S-3XL/2599230000?wmlspartner=YOUR_PARTNER_ID",
+      "summary": "Rick & Morty embroidered graphic tee. Premium quality with detailed embroidery.",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Grey"],
+      "details": [
+        { "label": "Material", "value": "60% cotton / 40% polyester" },
+        { "label": "Fit", "value": "Regular" },
+        { "label": "Rating", "value": "4.3/5 (6 reviews)" }
+      ]
+    },
+    {
+      "id": "walmart-190607266",
+      "title": "Star Wars 'Most Impressive' Darth Vader Tee",
+      "price": "$12.99",
+      "imageUrl": "/assets/products/shirts/shirt-7.jpg",
+      "productUrl": "https://www.walmart.com/ip/Men-s-Star-Wars-Most-Impressive-Graphic-Tee-Black-Medium/190607266?wmlspartner=YOUR_PARTNER_ID",
+      "summary": "Star Wars Darth Vader 'Most Impressive' graphic. Officially licensed apparel.",
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "colors": ["Black", "Navy"],
+      "details": [
+        { "label": "Material", "value": "100% cotton" },
+        { "label": "Fit", "value": "Regular" },
+        { "label": "Licensed", "value": "Star Wars" }
+      ]
+    },
+    {
+      "id": "walmart-14114760123",
+      "title": "Superman Shield Logo Graphic Tee",
+      "price": "$9.98",
+      "imageUrl": "/assets/products/shirts/shirt-8.jpg",
+      "productUrl": "https://www.walmart.com/ip/Superman-Men-s-and-Big-Men-s-Graphic-Tee-with-Short-Sleeves-Sizes-S-3XL/14114760123?wmlspartner=YOUR_PARTNER_ID",
+      "summary": "Classic Superman shield logo graphic. Available in multiple colors. Machine washable.",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Blue", "Black", "Red", "Grey"],
+      "details": [
+        { "label": "Material", "value": "100% cotton" },
+        { "label": "Fit", "value": "Regular" },
+        { "label": "Rating", "value": "4.5/5 (371 reviews)" }
+      ]
+    }
   ]
 }
