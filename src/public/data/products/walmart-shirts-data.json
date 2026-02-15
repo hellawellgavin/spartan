@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Nirvana Men's & Big Men's Smiley Striped Graphic Tee",
+    "price": "$16.98",
+    "productUrl": "https://www.walmart.com/ip/Nirvana-Striped-Men-s-Big-Men-s-Graphic-Tee-Shirt-Sizes-S-3XL/15563221134",
+    "imageFile": "shirt-1.jpg",
+    "description": "Features Nirvana smiley front graphics and a striped pattern. Made from 60% cotton and 40% polyester.",
+    "rating": 4.8,
+    "reviews": 4,
+    "sizes": "S-3XL"
+  },
+  {
+    "id": 2,
+    "title": "South Park Men's Graphic Cartman Tee Shirt, Respect My Authority",
+    "price": "$19.99",
+    "productUrl": "https://www.walmart.com/ip/South-Park-Mens-Big-Men-s-Graphic-Tee-Shirt-Cartman-Sizes-S-3XL/9370572438",
+    "imageFile": "shirt-2.jpg",
+    "description": "Cartman graphic tee featuring 'Respect My Authority'. 60% cotton / 40% polyester blend.",
+    "rating": 4.7,
+    "reviews": 154,
+    "sizes": "S-3XL"
+  },
+  {
+    "id": 3,
+    "title": "SpongeBob SquarePants & Character Group Shot Men's Graphic Tee",
+    "price": "$12.98",
+    "productUrl": "https://www.walmart.com/ip/SpongeBob-SquarePants-Character-Group-Shot-Men-s-Big-Men-s-Graphic-Tee-Sizes-S-3XL/599159676",
+    "imageFile": "shirt-3.jpg",
+    "description": "SpongeBob and characters group shot graphic. 100% cotton, machine washable.",
+    "rating": 1.0,
+    "reviews": 3,
+    "sizes": "S-3XL"
+  },
+  {
+    "id": 4,
+    "title": "Netflix Stranger Things Logo Men's & Big Men's Graphic Tee",
+    "price": "$12.98",
+    "productUrl": "https://www.walmart.com/ip/Stranger-Things-Men-s-Big-Men-s-Graphic-Tee-Sizes-S-3XL/16336561774",
+    "imageFile": "shirt-4.jpg",
+    "description": "Netflix Stranger Things logo design. 100% cotton, soft and breathable with relaxed fit.",
+    "rating": 4.5,
+    "reviews": 13,
+    "sizes": "S-3XL"
+  },
+  {
+    "id": 5,
+    "title": "Men's Nintendo 8-Bit Icons Graphic T-Shirt",
+    "price": "$12.99",
+    "productUrl": "https://www.walmart.com/ip/Men-s-Nintendo-8-Bit-Icons-Graphic-T-Shirt/13574752283",
+    "imageFile": "shirt-5.jpg",
+    "description": "Pixelated Nintendo characters including Mario, Luigi, Princess Peach, and classic enemies from 1985.",
+    "rating": 5.0,
+    "reviews": 1,
+    "sizes": "S-3XL"
+  },
+  {
+    "id": 6,
+    "title": "Rick & Morty Men's Embroidered Graphic Tee Shirt",
+    "price": "$12.98",
+    "productUrl": "https://www.walmart.com/ip/Rick-Morty-Men-s-Big-Men-s-Embroidered-Graphic-Tee-Shirt-Sizes-S-3XL/2599230000",
+    "imageFile": "shirt-6.jpg",
+    "description": "Rick & Morty embroidered graphic tee. 60% cotton / 40% polyester.",
+    "rating": 4.3,
+    "reviews": 6,
+    "sizes": "S-3XL"
+  },
+  {
+    "id": 7,
+    "title": "Men's Star Wars Most Impressive Graphic Tee",
+    "price": "$12.99",
+    "productUrl": "https://www.walmart.com/ip/Men-s-Star-Wars-Most-Impressive-Graphic-Tee-Black-Medium/190607266",
+    "imageFile": "shirt-7.jpg",
+    "description": "Star Wars Darth Vader 'Most Impressive' graphic. Officially licensed apparel.",
+    "rating": 0,
+    "reviews": 0,
+    "sizes": "S-2XL"
+  },
+  {
+    "id": 8,
+    "title": "Superman Men's & Big Men's Graphic Tee Shirt",
+    "price": "$9.98",
+    "productUrl": "https://www.walmart.com/ip/Superman-Men-s-and-Big-Men-s-Graphic-Tee-with-Short-Sleeves-Sizes-S-3XL/14114760123",
+    "imageFile": "shirt-8.jpg",
+    "description": "Classic Superman shield logo graphic. Available in multiple colors. Machine washable.",
+    "rating": 4.5,
+    "reviews": 371,
+    "sizes": "S-3XL"
+  }
+]
