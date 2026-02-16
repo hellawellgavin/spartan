@@ -2,25 +2,68 @@
   "category": "travel",
   "products": [
     { 
-      "id": "spartan-blood-legion", 
-      "title": "Spartan Blood Legion Tactical Backpack - Elite Series", 
-      "price": "$129.99", 
-      "imageUrl": "../../assets/travel-backpack-blood-red-spartan.png", 
-      "productUrl": "#", 
-      "summary": "Premium tactical travel backpack in blood red with the iconic Spartan shield emblem. Built for warriors who demand durability and style. Features USB charging port, laptop compartment, and reinforced construction.", 
-      "sizes": ["40L", "50L"], 
-      "colors": ["Blood Red", "Shadow Black", "Combat Olive"], 
+      "id": "amz-B0C4SQK9VT", 
+      "title": "Litvyak Overnight Weekend Luggage Travel Bag", 
+      "price": "$49.99", 
+      "imageUrl": "https://m.media-amazon.com/images/I/71WT7KlABQL._AC_SL1500_.jpg", 
+      "productUrl": "https://www.amazon.com/Litvyak-Overnight-Weekend-Luggage-Black/dp/B0C4SQK9VT?crid=OP3Q544ZY9V6&dib=eyJ2IjoiMSJ9.5JhBlua2YOOqoBZCCgmgQxHRJOvsZWEyLgr0pZTJzY5bQffZw7ZkOAZIoYMvL92FInckdS3QWyB_s9tNDThfHlqhcv4S0Gl3OP_igD20v9jQehFMjKpqYbzapNULC6HtIWdVpphm-JsLVctrEnYdIh0s1cYMUKig-UtXfp-i5K4119YonwkAr3K6yPzTEulquqUmuYUjd1SeeKwI4ubELNUBfYYG6Zj3DxUAgr1fP2gy_L2PcPAZbMtgVsBvha4lRIlYalwICoY9ymzdw5kBTudN_-Vi1TGt5_6OeqZR1FE.mslz2Wx4vRZpjvo7MYp48zgyuvS9At9sLjegZZcj1_k&dib_tag=se&keywords=travel%2Bbag%2Bfor%2Bmen&qid=1771199784&sprefix=travel%2Bbag%2B%2Caps%2C204&sr=8-5-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=hellawellgavi-20&linkId=ab2aa3c21d7e7c6c055c03a7ae6b076b&language=en_US&ref_=as_li_ss_tl", 
+      "summary": "Premium overnight travel bag perfect for weekend trips and gym use. Features multiple compartments, durable construction, and spacious interior for all your travel essentials.", 
+      "sizes": ["One Size"], 
+      "colors": ["Black"], 
       "details": [
-        { "label": "Material", "value": "Military-Grade Ripstop Nylon" }, 
-        { "label": "Capacity", "value": "40L / 50L" },
-        { "label": "Features", "value": "USB Port, Anti-Theft, Water-Resistant" },
-        { "label": "Laptop Sleeve", "value": "Up to 17\"" }
+        { "label": "Material", "value": "Durable Polyester" }, 
+        { "label": "Type", "value": "Overnight/Weekend Bag" },
+        { "label": "Features", "value": "Multiple Compartments, Adjustable Strap" },
+        { "label": "Use", "value": "Travel, Gym, Weekend Trips" }
       ] 
     },
-    { "id": "travel-1", "title": "Duffel Bag Pro", "price": "$89.99", "imageUrl": "https://picsum.photos/id/28/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Spacious duffel with multiple compartments. Built for gym, travel, or weekend trips.", "sizes": ["40L", "60L"], "colors": ["Black", "Navy", "Olive", "Grey"], "details": [{ "label": "Material", "value": "Nylon" }, { "label": "Capacity", "value": "40L / 60L" }] },
-    { "id": "travel-2", "title": "Travel Backpack", "price": "$74.99", "imageUrl": "https://picsum.photos/id/29/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Carry-on friendly backpack with laptop sleeve and organizer pockets.", "sizes": ["25L", "35L"], "colors": ["Black", "Navy", "Charcoal"], "details": [{ "label": "Material", "value": "Polyester" }, { "label": "Laptop sleeve", "value": "Up to 15\"" }] },
-    { "id": "travel-3", "title": "Passport Holder", "price": "$24.99", "imageUrl": "https://picsum.photos/id/30/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Slim RFID-blocking passport holder. Keeps documents safe and organized.", "sizes": ["One Size"], "colors": ["Black", "Brown", "Navy", "Burgundy"], "details": [{ "label": "Material", "value": "Leather" }, { "label": "RFID", "value": "Blocking" }] },
-    { "id": "travel-4", "title": "Weekender Bag", "price": "$64.99", "imageUrl": "https://picsum.photos/id/31/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Classic weekender with shoe compartment. Perfect for short getaways.", "sizes": ["One Size"], "colors": ["Black", "Navy", "Olive", "Tan"], "details": [{ "label": "Material", "value": "Canvas" }, { "label": "Dimensions", "value": "18\" x 12\" x 8\"" }] },
-    { "id": "travel-5", "title": "Packing Cubes Set", "price": "$34.99", "imageUrl": "https://picsum.photos/id/32/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Set of 4 packing cubes in multiple sizes. Organize any bag in seconds.", "sizes": ["Set of 4"], "colors": ["Black", "Navy", "Grey", "Multi"], "details": [{ "label": "Set includes", "value": "1 large, 2 medium, 1 small" }, { "label": "Material", "value": "Nylon" }] }
+    { 
+      "id": "amz-B0CR9JFD7S", 
+      "title": "Taygeer Backpack Airplane Approved Lightweight", 
+      "price": "$39.99", 
+      "imageUrl": "https://m.media-amazon.com/images/I/61RclLQJfgL._AC_SY300_SX300_QL70_FMwebp_.jpg", 
+      "productUrl": "https://www.amazon.com/Taygeer-Backpack-Airplane-Approved-Lightweight/dp/B0CR9JFD7S?crid=OP3Q544ZY9V6&dib=eyJ2IjoiMSJ9.5JhBlua2YOOqoBZCCgmgQxHRJOvsZWEyLgr0pZTJzY5bQffZw7ZkOAZIoYMvL92FInckdS3QWyB_s9tNDThfHlqhcv4S0Gl3OP_igD20v9jQehFMjKpqYbzapNULC6HtIWdVpphm-JsLVctrEnYdIh0s1cYMUKig-UtXfp-i5K4119YonwkAr3K6yPzTEulquqUmuYUjd1SeeKwI4ubELNUBfYYG6Zj3DxUAgr1fP2gy_L2PcPAZbMtgVsBvha4lRIlYalwICoY9ymzdw5kBTudN_-Vi1TGt5_6OeqZR1FE.mslz2Wx4vRZpjvo7MYp48zgyuvS9At9sLjegZZcj1_k&dib_tag=se&keywords=travel%2Bbag%2Bfor%2Bmen&qid=1771199784&sprefix=travel%2Bbag%2B%2Caps%2C204&sr=8-9&th=1&linkCode=ll2&tag=hellawellgavi-20&linkId=805efcba21cc240254189d5931bad0ec&language=en_US&ref_=as_li_ss_tl", 
+      "summary": "Lightweight airplane-approved backpack perfect for travel and daily commutes. Features TSA-friendly design, multiple pockets for organization, and comfortable padded straps for all-day wear.", 
+      "sizes": ["One Size"], 
+      "colors": ["Black"], 
+      "details": [
+        { "label": "Material", "value": "Lightweight Polyester" }, 
+        { "label": "Type", "value": "Travel Backpack" },
+        { "label": "Features", "value": "Airplane Approved, TSA-Friendly, Multiple Pockets" },
+        { "label": "Use", "value": "Air Travel, Daily Commute, School" }
+      ] 
+    },
+    { 
+      "id": "amz-B0D86JF738", 
+      "title": "Yamons Duffle Travel Expandable Canvas", 
+      "price": "$45.99", 
+      "imageUrl": "https://m.media-amazon.com/images/I/817zIeURQHL._AC_SL1500_.jpg", 
+      "productUrl": "https://www.amazon.com/Yamons-Duffle-Travel-Expandable-Canvas/dp/B0D86JF738?crid=OP3Q544ZY9V6&dib=eyJ2IjoiMSJ9.5JhBlua2YOOqoBZCCgmgQxHRJOvsZWEyLgr0pZTJzY5bQffZw7ZkOAZIoYMvL92FInckdS3QWyB_s9tNDThfHlqhcv4S0Gl3OP_igD20v9jQehFMjKpqYbzapNULC6HtIWdVpphm-JsLVctrEnYdIh0s1cYMUKig-UtXfp-i5K4119YonwkAr3K6yPzTEulquqUmuYUjd1SeeKwI4ubELNUBfYYG6Zj3DxUAgr1fP2gy_L2PcPAZbMtgVsBvha4lRIlYalwICoY9ymzdw5kBTudN_-Vi1TGt5_6OeqZR1FE.mslz2Wx4vRZpjvo7MYp48zgyuvS9At9sLjegZZcj1_k&dib_tag=se&keywords=travel%2Bbag%2Bfor%2Bmen&qid=1771199784&sprefix=travel%2Bbag%2B%2Caps%2C204&sr=8-11&th=1&linkCode=ll2&tag=hellawellgavi-20&linkId=84feee495e62cfa1ef21876f745dd6c5&language=en_US&ref_=as_li_ss_tl", 
+      "summary": "Expandable canvas duffle bag perfect for travel and sports. Features durable construction, spacious main compartment with expansion capability, and multiple pockets for organized packing.", 
+      "sizes": ["One Size"], 
+      "colors": ["Canvas"], 
+      "details": [
+        { "label": "Material", "value": "Durable Canvas" }, 
+        { "label": "Type", "value": "Expandable Duffle Bag" },
+        { "label": "Features", "value": "Expandable Design, Multiple Pockets, Adjustable Strap" },
+        { "label": "Use", "value": "Travel, Sports, Gym, Weekend Trips" }
+      ] 
+    },
+    { 
+      "id": "amz-B0DZXTPBDT", 
+      "title": "Halfday Convertible Wrinkle-Free Water-Resistant Travel Bag", 
+      "price": "$59.99", 
+      "imageUrl": "https://m.media-amazon.com/images/I/81iZHM8NFrL._AC_SL1500_.jpg", 
+      "productUrl": "https://www.amazon.com/Halfday-Convertible-Wrinkle-Free-Compartment-Water-Resistant/dp/B0DZXTPBDT?content-id=amzn1.sym.70a7cd16-f7d0-4def-a828-539c504a8e91%3Aamzn1.sym.70a7cd16-f7d0-4def-a828-539c504a8e91&crid=OP3Q544ZY9V6&cv_ct_cx=travel%2Bbag%2Bfor%2Bmen&keywords=travel%2Bbag%2Bfor%2Bmen&pd_rd_i=B0DZXTPBDT&pd_rd_r=21ac274a-9b66-4567-a9f7-9b57f8abe091&pd_rd_w=Cv9sR&pd_rd_wg=un4hP&pf_rd_p=70a7cd16-f7d0-4def-a828-539c504a8e91&pf_rd_r=191V2MF8QE35ZZRAY83R&qid=1771199784&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=travel%2Bbag%2B%2Caps%2C204&sr=1-1-59465cf1-147a-41eb-ada4-72d14f4b87b5-spons&aref=Vhm4GxMrPx&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1&linkCode=ll2&tag=hellawellgavi-20&linkId=ae3016cedb8a3b276ef5ba4bf028e492&language=en_US&ref_=as_li_ss_tl", 
+      "summary": "Premium convertible travel bag with wrinkle-free compartment and water-resistant construction. Perfect for business travelers who need to keep clothes fresh and protected during travel.", 
+      "sizes": ["One Size"], 
+      "colors": ["Black"], 
+      "details": [
+        { "label": "Material", "value": "Water-Resistant Fabric" }, 
+        { "label": "Type", "value": "Convertible Travel Bag" },
+        { "label": "Features", "value": "Wrinkle-Free Compartment, Water-Resistant, Multiple Pockets" },
+        { "label": "Use", "value": "Business Travel, Weekend Trips, Daily Commute" }
+      ] 
+    }
   ]
 }

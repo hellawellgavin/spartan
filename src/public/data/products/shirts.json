@@ -2,123 +2,132 @@
   "category": "shirts",
   "products": [
     {
-      "id": "walmart-15563221134",
-      "title": "Nirvana Men's Smiley Striped Graphic Tee",
-      "price": "$16.98",
-      "imageUrl": "/assets/products/shirts/shirt-1.jpg",
-      "productUrl": "https://www.walmart.com/ip/Nirvana-Striped-Men-s-Big-Men-s-Graphic-Tee-Shirt-Sizes-S-3XL/15563221134?wmlspartner=YOUR_PARTNER_ID",
-      "summary": "Features Nirvana smiley front graphics and a striped pattern. Made from 60% cotton and 40% polyester.",
-      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-      "colors": ["Black/Yellow", "White"],
+      "id": "shirt-B07BVWHJHX",
+      "title": "Sarcastic Passive Aggressive Gifts Men & Women Tee Shirts T-Shirt",
+      "price": "$16.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C71rWMDm9jiL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX569_.png",
+      "productUrl": "https://www.amazon.com/Sarcastic-Passive-Aggressive-Gifts-Shirts/dp/B07BVWHJHX?crid=1P9VPBPBHQWSR&dib=eyJ2IjoiMSJ9.AIckJIJnJuNQCD7Nfrz0MPJiFm_ASF069w7j21wi46R5qXMaezT5mIgsVVZ5GiklggpWZmlgCaFpK8QuJ5wYmzva6NNih-59g88jyYsj2i6sAzZ2Mu8Glnt1z7-F8fiLfpplWXgJYu4GFO4V_SCiNU-_yTxpbvc0HMEk0SG_d7PumV1O2EaClaiFba5LIKsRKLsS2VHdH08JtdJ-k4Y8jgqDqoevB1oA3aNNZnEzf6tCZjrbCIiODyEDFFv-_0hoXBm9jHqkOBH3xJVYxYayV8AdYTbCmFmZKC1eGrXNNQo.MVt6FyyRH0guCu0vgjUSGXAusv61YwfFjkrKcBoD2v8&dib_tag=se&keywords=cool+aggressive+tee+shirts&qid=1771196227&sprefix=cool+aggresive+tee+shirts%2Caps%2C328&sr=8-6&linkCode=ll2&tag=hellawellgavi-20&linkId=3b30fd37bd48931e149f977899ebedde&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Funny sarcastic t-shirt with the quote 'NO YOU'RE RIGHT, LET'S DO IT THE DUMBEST WAY POSSIBLE'. Perfect gift for people fluent in sarcasm, ideal for birthdays, holidays, and special occasions.",
+      "sizes": ["S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL", "6XL"],
+      "colors": ["Black", "Navy", "Dark Heather"],
       "details": [
-        { "label": "Material", "value": "60% cotton / 40% polyester" },
-        { "label": "Fit", "value": "Regular" },
-        { "label": "Rating", "value": "4.8/5 (4 reviews)" }
+        { "label": "Material", "value": "100% Cotton (Heather: 50% Cotton, 50% Polyester)" },
+        { "label": "Fit", "value": "Classic Fit" },
+        { "label": "Style", "value": "Crew Neck" },
+        { "label": "Brand", "value": "Funny Sarcasm T Shirt Gift Collection" }
       ]
     },
     {
-      "id": "walmart-9370572438",
-      "title": "South Park Cartman 'Respect My Authority' Tee",
-      "price": "$19.99",
-      "imageUrl": "/assets/products/shirts/shirt-2.jpg",
-      "productUrl": "https://www.walmart.com/ip/South-Park-Mens-Big-Men-s-Graphic-Tee-Shirt-Cartman-Sizes-S-3XL/9370572438?wmlspartner=YOUR_PARTNER_ID",
-      "summary": "Cartman graphic tee featuring 'Respect My Authority'. Classic South Park character design.",
-      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-      "colors": ["Black", "Navy", "Red"],
+      "id": "shirt-B075JQM7T4",
+      "title": "Marvel Men's Deadpool Riding A Unicorn On A Rainbow T-Shirt",
+      "price": "$17.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jzk-9+TXL._AC_SX679_.jpg",
+      "productUrl": "https://www.amazon.com/Marvel-Deadpool-Unicorn-Rainbow-2X-Large/dp/B075JQM7T4?crid=58EPWTEOK4XN&dib=eyJ2IjoiMSJ9.vGGC39q0uCjmZk4dDuc7dcqR9oH2a9gsgTiTqiO_LclURfj9SJhahNdsZGUidFY8gQW-AHYRPN2IRfP5wjzx0YKs66Hn9DeRybEp8IRKbZcmf3kHn97cuEQNjva_Q3BurF7qsb4LRijJqIM8ElHQUV5BCVjaJ1BTR3a5O39iLKshyRG4W_q3Is8zjJkx_g3PV64FsVy9GoR9yAd1yICqymhAn3sD_0qQ5NZ7DL2ARbFrPcsp-8_pYKafD8Qo7I0xRKENztZh4CPal5B4YEAMrSyc6l9LNzYr2DAxuxe5MU0.ZuaNvTdbyd82BjiIfnVJIY21JBMr_ADplcO-aQA_kXs&dib_tag=se&keywords=deadpool%2Btee%2Bshirts&qid=1771197106&sprefix=deadpool%2Btee%2Bshirts%2Caps%2C207&sr=8-1&th=1&psc=1&linkCode=ll2&tag=hellawellgavi-20&linkId=bd6c733286ad16b252c48b469c6d5642&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Top-selling official licensed Marvel Deadpool t-shirt featuring a full color graphic of Deadpool riding a unicorn on a rainbow. Made with Maximum Effort! Perfect for Marvel and Deadpool fans.",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Navy Heather", "Black", "Navy Blue", "Indigo Heather"],
       "details": [
-        { "label": "Material", "value": "60% cotton / 40% polyester" },
-        { "label": "Fit", "value": "Regular" },
-        { "label": "Rating", "value": "4.7/5 (154 reviews)" }
+        { "label": "Material", "value": "50% Polyester, 50% Cotton" },
+        { "label": "Fit", "value": "Classic Fit" },
+        { "label": "Brand", "value": "Marvel" },
+        { "label": "Rating", "value": "4.7/5 stars (3,989 reviews)" }
       ]
     },
     {
-      "id": "walmart-599159676",
-      "title": "SpongeBob SquarePants Character Group Tee",
-      "price": "$12.98",
-      "imageUrl": "/assets/products/shirts/shirt-3.jpg",
-      "productUrl": "https://www.walmart.com/ip/SpongeBob-SquarePants-Character-Group-Shot-Men-s-Big-Men-s-Graphic-Tee-Sizes-S-3XL/599159676?wmlspartner=YOUR_PARTNER_ID",
-      "summary": "SpongeBob and friends group shot graphic. 100% cotton, machine washable.",
-      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-      "colors": ["Yellow", "Navy", "White"],
+      "id": "shirt-B07KVB9JYL",
+      "title": "Marvel Deadpool SSHHHH No One Cares Whisper T-Shirt",
+      "price": "$17.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C91n8vPC7EqL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+      "productUrl": "https://www.amazon.com/Marvel-Deadpool-Whisper-Graphic-T-Shirt/dp/B07KVB9JYL?crid=58EPWTEOK4XN&dib=eyJ2IjoiMSJ9.vGGC39q0uCjmZk4dDuc7dcqR9oH2a9gsgTiTqiO_LclURfj9SJhahNdsZGUidFY8gQW-AHYRPN2IRfP5wjzx0YKs66Hn9DeRybEp8IRKbZcmf3kHn97cuEQNjva_Q3BurF7qsb4LRijJqIM8ElHQUV5BCVjaJ1BTR3a5O39iLKshyRG4W_q3Is8zjJkx_g3PV64FsVy9GoR9yAd1yICqymhAn3sD_0qQ5NZ7DL2ARbFrPcsp-8_pYKafD8Qo7I0xRKENztZh4CPal5B4YEAMrSyc6l9LNzYr2DAxuxe5MU0.ZuaNvTdbyd82BjiIfnVJIY21JBMr_ADplcO-aQA_kXs&dib_tag=se&keywords=deadpool+tee+shirts&qid=1771197106&sprefix=deadpool+tee+shirts%2Caps%2C207&sr=8-4&linkCode=ll2&tag=hellawellgavi-20&linkId=fece5ad895784ccdcd4bfb42fa01bcac&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Officially licensed Marvel Deadpool t-shirt featuring the humorous 'SSHHHH No One Cares' whisper graphic. Perfect for Deadpool fans who love sarcastic humor and Marvel Comics.",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL", "4XL", "5XL", "6XL"],
+      "colors": ["Black", "Navy", "Heather"],
       "details": [
-        { "label": "Material", "value": "100% cotton" },
-        { "label": "Fit", "value": "Regular" },
-        { "label": "Licensed", "value": "Nickelodeon" }
+        { "label": "Material", "value": "100% Cotton (Heather: 50% Cotton, 50% Polyester)" },
+        { "label": "Fit", "value": "Classic Fit" },
+        { "label": "Brand", "value": "Marvel" },
+        { "label": "Rating", "value": "4.8/5 stars (2,423 reviews)" },
+        { "label": "Certification", "value": "OEKO-TEX STANDARD 100" }
       ]
     },
     {
-      "id": "walmart-16336561774",
-      "title": "Netflix Stranger Things Logo Tee",
-      "price": "$12.98",
-      "imageUrl": "/assets/products/shirts/shirt-4.jpg",
-      "productUrl": "https://www.walmart.com/ip/Stranger-Things-Men-s-Big-Men-s-Graphic-Tee-Sizes-S-3XL/16336561774?wmlspartner=YOUR_PARTNER_ID",
-      "summary": "Netflix Stranger Things logo design. 100% cotton, soft and breathable with relaxed fit.",
-      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-      "colors": ["Black", "Navy", "Maroon"],
+      "id": "shirt-B07KRXYKVD",
+      "title": "Disney The Nightmare Before Christmas Jack Skellington T-Shirt",
+      "price": "$17.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C91Grow88zFL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+      "productUrl": "https://www.amazon.com/Disney-Nightmare-Before-Christmas-Shirt/dp/B07KRXYKVD?crid=KJSAF1992S8D&dib=eyJ2IjoiMSJ9.2ajXGSZraysRK5KY0trQOmJJ3xvxqxy0-OzlSd5CE0zRVX5AXIzsSY6JxhBX6V3ZAzCIDUDt9hz0c_dhRN1-NZgCp9c8tn-6N30mtsiw7ylo8W8Z3UMxsyubRQFtliVGGGqzO51Vit1q7VdXjFSagTdDagiQUFBVp2TTILe6uIkOQ329Mqpe_TEv2Thg53CqCRLj2g4Q25pPlv2d1kwEBeMOb3H6KqfealmiDQG5_EQ1rFhVhqopmZU1mH33igMIRxtKRcV8gV121UidVJ7HhQxLNHCdwIFppVO6v5RA_gw.bek2arED7b7z-rnt2AgTXhxrgselDYE6zn4oq9VS8yQ&dib_tag=se&keywords=jack+skellington+tee+shirts&qid=1771197852&sprefix=jack+skellington+tee+shirts%2Caps%2C236&sr=8-4&linkCode=ll2&tag=hellawellgavi-20&linkId=6b2a77ee3e87c262868c5e836e30091c&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Officially licensed Disney The Nightmare Before Christmas t-shirt featuring Jack Skellington. Perfect for fans of Tim Burton's iconic character and the classic Halloween movie.",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Heather"],
       "details": [
-        { "label": "Material", "value": "100% cotton" },
-        { "label": "Fit", "value": "Relaxed" },
-        { "label": "Rating", "value": "4.5/5 (13 reviews)" }
+        { "label": "Material", "value": "100% Cotton (Heather: 50% Cotton, 50% Polyester)" },
+        { "label": "Fit", "value": "Classic Fit" },
+        { "label": "Brand", "value": "Disney" },
+        { "label": "Style", "value": "Crew Neck" }
       ]
     },
     {
-      "id": "walmart-13574752283",
-      "title": "Nintendo 8-Bit Icons Graphic T-Shirt",
-      "price": "$12.99",
-      "imageUrl": "/assets/products/shirts/shirt-5.jpg",
-      "productUrl": "https://www.walmart.com/ip/Men-s-Nintendo-8-Bit-Icons-Graphic-T-Shirt/13574752283?wmlspartner=YOUR_PARTNER_ID",
-      "summary": "Pixelated Nintendo characters including Mario, Luigi, Princess Peach, and classic enemies from 1985.",
-      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-      "colors": ["Black", "Navy", "Grey"],
+      "id": "shirt-B07KW7H5VK",
+      "title": "Disney The Nightmare Before Christmas Sally T-Shirt",
+      "price": "$17.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7CA1YpxBAsj0L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+      "productUrl": "https://www.amazon.com/Disney-Nightmare-Before-Christmas-TShirt/dp/B07KW7H5VK?crid=KJSAF1992S8D&dib=eyJ2IjoiMSJ9.2ajXGSZraysRK5KY0trQOmJJ3xvxqxy0-OzlSd5CE0zRVX5AXIzsSY6JxhBX6V3ZAzCIDUDt9hz0c_dhRN1-NZgCp9c8tn-6N30mtsiw7ylo8W8Z3UMxsyubRQFtliVGGGqzO51Vit1q7VdXjFSagTdDagiQUFBVp2TTILe6uIkOQ329Mqpe_TEv2Thg53CqCRLj2g4Q25pPlv2d1kwEBeMOb3H6KqfealmiDQG5_EQ1rFhVhqopmZU1mH33igMIRxtKRcV8gV121UidVJ7HhQxLNHCdwIFppVO6v5RA_gw.bek2arED7b7z-rnt2AgTXhxrgselDYE6zn4oq9VS8yQ&dib_tag=se&keywords=jack+skellington+tee+shirts&qid=1771197852&sprefix=jack+skellington+tee+shirts%2Caps%2C236&sr=8-24&linkCode=ll2&tag=hellawellgavi-20&linkId=be7082d3f4643ce2a795a6c62eeef832&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Officially licensed Disney The Nightmare Before Christmas t-shirt featuring Sally. Perfect for fans who love the romantic and kind-hearted rag doll character from the classic movie.",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Heather"],
       "details": [
-        { "label": "Material", "value": "100% cotton" },
-        { "label": "Fit", "value": "Regular" },
-        { "label": "Rating", "value": "5.0/5 (1 review)" }
+        { "label": "Material", "value": "100% Cotton (Heather: 50% Cotton, 50% Polyester)" },
+        { "label": "Fit", "value": "Classic Fit" },
+        { "label": "Brand", "value": "Disney" },
+        { "label": "Style", "value": "Crew Neck" }
       ]
     },
     {
-      "id": "walmart-2599230000",
-      "title": "Rick & Morty Embroidered Graphic Tee",
-      "price": "$12.98",
-      "imageUrl": "/assets/products/shirts/shirt-6.jpg",
-      "productUrl": "https://www.walmart.com/ip/Rick-Morty-Men-s-Big-Men-s-Embroidered-Graphic-Tee-Shirt-Sizes-S-3XL/2599230000?wmlspartner=YOUR_PARTNER_ID",
-      "summary": "Rick & Morty embroidered graphic tee. Premium quality with detailed embroidery.",
-      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-      "colors": ["Black", "Navy", "Grey"],
+      "id": "shirt-B0DP7Z2NKC",
+      "title": "Disney The Nightmare Before Christmas Jack & Sally T-Shirt",
+      "price": "$17.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7CA14xKMtkjuL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+      "productUrl": "https://www.amazon.com/Disney-Nightmare-Before-Christmas-T-Shirt/dp/B0DP7Z2NKC?crid=KJSAF1992S8D&dib=eyJ2IjoiMSJ9.2ajXGSZraysRK5KY0trQOmJJ3xvxqxy0-OzlSd5CE0zRVX5AXIzsSY6JxhBX6V3ZAzCIDUDt9hz0c_dhRN1-NZgCp9c8tn-6N30mtsiw7ylo8W8Z3UMxsyubRQFtliVGGGqzO51Vit1q7VdXjFSagTdDagiQUFBVp2TTILe6uIkOQ329Mqpe_TEv2Thg53CqCRLj2g4Q25pPlv2d1kwEBeMOb3H6KqfealmiDQG5_EQ1rFhVhqopmZU1mH33igMIRxtKRcV8gV121UidVJ7HhQxLNHCdwIFppVO6v5RA_gw.bek2arED7b7z-rnt2AgTXhxrgselDYE6zn4oq9VS8yQ&dib_tag=se&keywords=jack+skellington+tee+shirts&qid=1771197852&sprefix=jack+skellington+tee+shirts%2Caps%2C236&sr=8-27&linkCode=ll2&tag=hellawellgavi-20&linkId=a7f1741457288a7cff4a84156e397c5d&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Officially licensed Disney The Nightmare Before Christmas t-shirt featuring Jack Skellington and Sally together. Perfect for fans of the iconic couple from Tim Burton's beloved Halloween classic.",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Heather"],
       "details": [
-        { "label": "Material", "value": "60% cotton / 40% polyester" },
-        { "label": "Fit", "value": "Regular" },
-        { "label": "Rating", "value": "4.3/5 (6 reviews)" }
+        { "label": "Material", "value": "100% Cotton (Heather: 50% Cotton, 50% Polyester)" },
+        { "label": "Fit", "value": "Classic Fit" },
+        { "label": "Brand", "value": "Disney" },
+        { "label": "Style", "value": "Crew Neck" }
       ]
     },
     {
-      "id": "walmart-190607266",
-      "title": "Star Wars 'Most Impressive' Darth Vader Tee",
-      "price": "$12.99",
-      "imageUrl": "/assets/products/shirts/shirt-7.jpg",
-      "productUrl": "https://www.walmart.com/ip/Men-s-Star-Wars-Most-Impressive-Graphic-Tee-Black-Medium/190607266?wmlspartner=YOUR_PARTNER_ID",
-      "summary": "Star Wars Darth Vader 'Most Impressive' graphic. Officially licensed apparel.",
-      "sizes": ["S", "M", "L", "XL", "2XL"],
-      "colors": ["Black", "Navy"],
+      "id": "shirt-B08JSFWXKC",
+      "title": "Disney The Nightmare Before Christmas Vintage Portrait T-Shirt",
+      "price": "$17.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7CA1rHylf3t7L.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX569_.png",
+      "productUrl": "https://www.amazon.com/Disney-Nightmare-Christmas-Vintage-Portrait/dp/B08JSFWXKC?crid=KJSAF1992S8D&dib=eyJ2IjoiMSJ9.2ajXGSZraysRK5KY0trQOmJJ3xvxqxy0-OzlSd5CE0zRVX5AXIzsSY6JxhBX6V3ZAzCIDUDt9hz0c_dhRN1-NZgCp9c8tn-6N30mtsiw7ylo8W8Z3UMxsyubRQFtliVGGGqzO51Vit1q7VdXjFSagTdDagiQUFBVp2TTILe6uIkOQ329Mqpe_TEv2Thg53CqCRLj2g4Q25pPlv2d1kwEBeMOb3H6KqfealmiDQG5_EQ1rFhVhqopmZU1mH33igMIRxtKRcV8gV121UidVJ7HhQxLNHCdwIFppVO6v5RA_gw.bek2arED7b7z-rnt2AgTXhxrgselDYE6zn4oq9VS8yQ&dib_tag=se&keywords=jack+skellington+tee+shirts&qid=1771197852&sprefix=jack+skellington+tee+shirts%2Caps%2C236&sr=8-48&linkCode=ll2&tag=hellawellgavi-20&linkId=9eae212569072e8f9432550ee2cb43c3&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Officially licensed Disney The Nightmare Before Christmas t-shirt featuring a vintage-style portrait design. Perfect for fans who appreciate classic artwork and Tim Burton's iconic Halloween film.",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Heather"],
       "details": [
-        { "label": "Material", "value": "100% cotton" },
-        { "label": "Fit", "value": "Regular" },
-        { "label": "Licensed", "value": "Star Wars" }
+        { "label": "Material", "value": "100% Cotton (Heather: 50% Cotton, 50% Polyester)" },
+        { "label": "Fit", "value": "Classic Fit" },
+        { "label": "Brand", "value": "Disney" },
+        { "label": "Style", "value": "Crew Neck" }
       ]
     },
     {
-      "id": "walmart-14114760123",
-      "title": "Superman Shield Logo Graphic Tee",
-      "price": "$9.98",
-      "imageUrl": "/assets/products/shirts/shirt-8.jpg",
-      "productUrl": "https://www.walmart.com/ip/Superman-Men-s-and-Big-Men-s-Graphic-Tee-with-Short-Sleeves-Sizes-S-3XL/14114760123?wmlspartner=YOUR_PARTNER_ID",
-      "summary": "Classic Superman shield logo graphic. Available in multiple colors. Machine washable.",
-      "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
-      "colors": ["Blue", "Black", "Red", "Grey"],
+      "id": "shirt-B082XWV6J9",
+      "title": "Disney The Nightmare Before Christmas Scribble T-Shirt",
+      "price": "$17.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C71rAmDg5nsL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SX679_.png",
+      "productUrl": "https://www.amazon.com/Disney-Nightmare-Christmas-Scribble-T-Shirt/dp/B082XWV6J9?crid=KJSAF1992S8D&dib=eyJ2IjoiMSJ9.2ajXGSZraysRK5KY0trQOmJJ3xvxqxy0-OzlSd5CE0zRVX5AXIzsSY6JxhBX6V3ZAzCIDUDt9hz0c_dhRN1-NZgCp9c8tn-6N30mtsiw7ylo8W8Z3UMxsyubRQFtliVGGGqzO51Vit1q7VdXjFSagTdDagiQUFBVp2TTILe6uIkOQ329Mqpe_TEv2Thg53CqCRLj2g4Q25pPlv2d1kwEBeMOb3H6KqfealmiDQG5_EQ1rFhVhqopmZU1mH33igMIRxtKRcV8gV121UidVJ7HhQxLNHCdwIFppVO6v5RA_gw.bek2arED7b7z-rnt2AgTXhxrgselDYE6zn4oq9VS8yQ&dib_tag=se&keywords=jack+skellington+tee+shirts&qid=1771197852&sprefix=jack+skellington+tee+shirts%2Caps%2C236&sr=8-51&linkCode=ll2&tag=hellawellgavi-20&linkId=5e396a5bd9f599cf6c4ece46062e707d&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Officially licensed Disney The Nightmare Before Christmas t-shirt featuring a unique scribble-style design. Perfect for fans who love artistic interpretations of Tim Burton's classic characters.",
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
+      "colors": ["Black", "Navy", "Heather"],
       "details": [
-        { "label": "Material", "value": "100% cotton" },
-        { "label": "Fit", "value": "Regular" },
-        { "label": "Rating", "value": "4.5/5 (371 reviews)" }
+        { "label": "Material", "value": "100% Cotton (Heather: 50% Cotton, 50% Polyester)" },
+        { "label": "Fit", "value": "Classic Fit" },
+        { "label": "Brand", "value": "Disney" },
+        { "label": "Style", "value": "Crew Neck" }
       ]
     }
   ]

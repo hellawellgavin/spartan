@@ -1,10 +1,133 @@
 {
   "category": "pants",
   "products": [
-    { "id": "pants-1", "title": "Tactical Cargo Pants", "price": "$69.99", "imageUrl": "https://picsum.photos/id/82/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Rugged cargo pants with multiple pockets. Durable fabric built for action.", "sizes": ["28", "30", "32", "34", "36", "38"], "colors": ["Black", "Coyote Brown", "Olive", "Grey"], "details": [{ "label": "Material", "value": "Cotton twill" }, { "label": "Fit", "value": "Relaxed" }] },
-    { "id": "pants-2", "title": "Warrior Joggers", "price": "$54.99", "imageUrl": "https://picsum.photos/id/83/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Comfortable joggers with tapered fit. Perfect for training or casual wear.", "sizes": ["S", "M", "L", "XL"], "colors": ["Black", "Charcoal", "Navy", "Burgundy"], "details": [{ "label": "Material", "value": "French terry cotton" }, { "label": "Fit", "value": "Tapered" }] },
-    { "id": "pants-3", "title": "Legacy Chinos", "price": "$49.99", "imageUrl": "https://picsum.photos/id/84/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Versatile chinos that pair with anything. Clean look for work or weekend.", "sizes": ["28", "30", "32", "34", "36"], "colors": ["Khaki", "Navy", "Olive", "Grey", "Black"], "details": [{ "label": "Material", "value": "Cotton chino" }, { "label": "Fit", "value": "Slim" }] },
-    { "id": "pants-4", "title": "Spartan Denim", "price": "$64.99", "imageUrl": "https://picsum.photos/id/85/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Premium denim with a classic fit. Built to last and age beautifully.", "sizes": ["28", "30", "32", "34", "36", "38"], "colors": ["Dark Indigo", "Medium Wash", "Black"], "details": [{ "label": "Material", "value": "100% cotton denim" }, { "label": "Fit", "value": "Regular" }] },
-    { "id": "pants-5", "title": "Training Shorts", "price": "$34.99", "imageUrl": "https://picsum.photos/id/86/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Lightweight training shorts with built-in liner. Move freely in the gym or on the trail.", "sizes": ["S", "M", "L", "XL"], "colors": ["Black", "Navy", "Grey", "Red"], "details": [{ "label": "Material", "value": "Polyester blend" }, { "label": "Fit", "value": "Standard" }] }
+    {
+      "id": "pants-B0CQRKJ7WQ",
+      "title": "Men's Chinos Stretch Flat-Front Skinny Dress Pants",
+      "price": "$29.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/41LNgltw2kL._AC_.jpg",
+      "productUrl": "https://www.amazon.com/Chinos-Stretch-Flat-Front-Skinny-Dress/dp/B0CQRKJ7WQ?content-id=amzn1.sym.31d9eba9-3679-47e9-8be2-d0e15bcf0c60%3Aamzn1.sym.31d9eba9-3679-47e9-8be2-d0e15bcf0c60&crid=1HJCL6SPHGPOP&cv_ct_cx=good%2Bfellow%2Bchino%2Bpants%2Bfor%2Bmen&keywords=good%2Bfellow%2Bchino%2Bpants%2Bfor%2Bmen&pd_rd_i=B0CQRKJ7WQ&pd_rd_r=38542cb4-d7a8-4a1a-9a80-7143cae8b8b4&pd_rd_w=ZmUvY&pd_rd_wg=7ApA1&pf_rd_p=31d9eba9-3679-47e9-8be2-d0e15bcf0c60&pf_rd_r=SGMQYF0WG65M9M525F55&qid=1771198574&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=good%2Bfellow%2Bchino%2Caps%2C372&sr=1-3-38f1b294-ceac-4b0f-b4a4-629ab102646f-spons&aref=pLxXRBlA1I&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1&psc=1&linkCode=ll2&tag=hellawellgavi-20&linkId=662723190372e2b309fc3a927eb3db41&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Premium stretch chino dress pants with flat-front design and skinny fit. Perfect for work, business casual, or smart casual occasions. Comfortable stretch fabric provides all-day wearability.",
+      "sizes": ["28x30", "29x30", "30x30", "31x30", "32x30", "33x30", "34x30", "36x30", "38x30", "40x30", "28x32", "29x32", "30x32", "31x32", "32x32", "33x32", "34x32", "36x32", "38x32", "40x32"],
+      "colors": ["Black", "Navy", "Khaki", "Grey", "Charcoal", "Burgundy"],
+      "details": [
+        { "label": "Material", "value": "Stretch Cotton Blend" },
+        { "label": "Fit", "value": "Skinny/Slim Fit" },
+        { "label": "Style", "value": "Flat-Front Dress Chinos" },
+        { "label": "Features", "value": "Stretch fabric, Wrinkle-resistant" }
+      ]
+    },
+    {
+      "id": "pants-B07757Y3CS",
+      "title": "Amazon Essentials Men's Slim-Fit Wrinkle-Resistant Flat-Front Chino Pant",
+      "price": "$24.20",
+      "imageUrl": "https://m.media-amazon.com/images/I/61nB240YdAL._AC_SX679_.jpg",
+      "productUrl": "https://www.amazon.com/Amazon-Essentials-Slim-Fit-Wrinkle-Resistant-Flat-Front/dp/B07757Y3CS?crid=1HJCL6SPHGPOP&dib=eyJ2IjoiMSJ9.LFu0Iti9vr3EzGX6akX98EYRTxsvDE9RwbgWm5NU17Oidc08EOYSusr9lw5DdMbB_SaegqSVZuJaVwMfaRP-2y28E8pjgy03dQaQWZKM0ZdzyG72sZUgbiTX2X6W58yEfbASjvlxXpIIKIorkrn8EnX5uu1Vg5dzYq3txvA4vhsRVz1Pjo2IpjoIzw8Ruz1C1vIHUBu1BSz4YMS7BSkCkLGDfKipQT5WErbsZpJbqchWhS0K3WUl_9VEHiUhaEVdINHFLYxpFpb_XVjYxJdXc-5AbbzUQi2SFdMiio0XogE.qXgURye5sE32LUrJzpDY9ONKSgvVmmRMX8yIBD-rWrQ&dib_tag=se&keywords=good+fellow+chino+pants+for+men&qid=1771198574&sprefix=good+fellow+chino%2Caps%2C372&sr=8-11&linkCode=ll2&tag=hellawellgavi-20&linkId=c457f2a9509586cb44d0c55f98564abe&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Amazon Essentials men's slim-fit chino pants with wrinkle-resistant fabric. Classic flat-front design ideal for everyday wear, work, or casual occasions. Durable construction with a modern slim fit.",
+      "sizes": ["28x28", "28x30", "28x32", "29x28", "29x30", "29x32", "30x28", "30x30", "30x32", "31x28", "31x30", "31x32", "32x28", "32x30", "32x32", "33x28", "33x30", "33x32", "34x28", "34x30", "34x32", "35x28", "35x30", "35x32", "36x28", "36x30", "36x32", "38x28", "38x30", "38x32", "40x28", "40x30", "40x32", "42x28", "42x30", "42x32"],
+      "colors": ["Black", "Navy", "Khaki", "Olive", "Stone", "Dark Grey"],
+      "details": [
+        { "label": "Material", "value": "Cotton Blend" },
+        { "label": "Fit", "value": "Slim Fit" },
+        { "label": "Style", "value": "Flat-Front Chino Pants" },
+        { "label": "Features", "value": "Wrinkle-resistant, Classic chino style" }
+      ]
+    },
+    {
+      "id": "pants-B077RV24N1",
+      "title": "Amazon Essentials Men's Slim-Fit 5-Pocket Chino Pant (Previously GoodThreads)",
+      "price": "$23.50",
+      "imageUrl": "https://m.media-amazon.com/images/I/71kdm6eF5bL._AC_SY879_.jpg",
+      "productUrl": "https://www.amazon.com/Amazon-Essentials-5-Pockets-Previously-GoodThreads/dp/B077RV24N1?crid=1HJCL6SPHGPOP&dib=eyJ2IjoiMSJ9.LFu0Iti9vr3EzGX6akX98EYRTxsvDE9RwbgWm5NU17Oidc08EOYSusr9lw5DdMbB_SaegqSVZuJaVwMfaRP-2y28E8pjgy03dQaQWZKM0ZdzyG72sZUgbiTX2X6W58yEfbASjvlxXpIIKIorkrn8EnX5uu1Vg5dzYq3txvA4vhsRVz1Pjo2IpjoIzw8Ruz1C1vIHUBu1BSz4YMS7BSkCkLGDfKipQT5WErbsZpJbqchWhS0K3WUl_9VEHiUhaEVdINHFLYxpFpb_XVjYxJdXc-5AbbzUQi2SFdMiio0XogE.qXgURye5sE32LUrJzpDY9ONKSgvVmmRMX8yIBD-rWrQ&dib_tag=se&keywords=good+fellow+chino+pants+for+men&qid=1771198574&sprefix=good+fellow+chino%2Caps%2C372&sr=8-16&linkCode=ll2&tag=hellawellgavi-20&linkId=f054c1d5ca64241ee970a2cc37ca627b&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Amazon Essentials men's slim-fit 5-pocket chino pants, previously sold as GoodThreads. Versatile casual pants with classic 5-pocket styling combining the comfort of chinos with the style of jeans. Perfect for everyday casual wear.",
+      "sizes": ["28x28", "28x30", "28x32", "29x28", "29x30", "29x32", "30x28", "30x30", "30x32", "31x28", "31x30", "31x32", "32x28", "32x30", "32x32", "33x28", "33x30", "33x32", "34x28", "34x30", "34x32", "35x28", "35x30", "35x32", "36x28", "36x30", "36x32", "38x28", "38x30", "38x32", "40x28", "40x30", "40x32"],
+      "colors": ["Khaki", "Navy", "Black", "Charcoal", "Grey", "Olive"],
+      "details": [
+        { "label": "Material", "value": "Cotton Stretch Blend" },
+        { "label": "Fit", "value": "Slim Fit" },
+        { "label": "Style", "value": "5-Pocket Chino Pants" },
+        { "label": "Features", "value": "5-pocket styling, Comfortable stretch, Versatile casual design" }
+      ]
+    },
+    {
+      "id": "pants-B09JB5FSW4",
+      "title": "Men's Plaid/Plain Khaki Tapered Casual Chino Pants",
+      "price": "$26.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/51hM9KXHKVL._AC_SX679_.jpg",
+      "productUrl": "https://www.amazon.com/Plaid-Plain-Khaki-Tapered-Charcoal40X34/dp/B09JB5FSW4?crid=1HJCL6SPHGPOP&dib=eyJ2IjoiMSJ9.LFu0Iti9vr3EzGX6akX98EYRTxsvDE9RwbgWm5NU17Oidc08EOYSusr9lw5DdMbB_SaegqSVZuJaVwMfaRP-2y28E8pjgy03dQaQWZKM0ZdzyG72sZUgbiTX2X6W58yEfbASjvlxXpIIKIorkrn8EnX5uu1Vg5dzYq3txvA4vhsRVz1Pjo2IpjoIzw8Ruz1C1vIHUBu1BSz4YMS7BSkCkLGDfKipQT5WErbsZpJbqchWhS0K3WUl_9VEHiUhaEVdINHFLYxpFpb_XVjYxJdXc-5AbbzUQi2SFdMiio0XogE.qXgURye5sE32LUrJzpDY9ONKSgvVmmRMX8yIBD-rWrQ&dib_tag=se&keywords=good+fellow+chino+pants+for+men&qid=1771198574&sprefix=good+fellow+chino%2Caps%2C372&sr=8-32&linkCode=ll2&tag=hellawellgavi-20&linkId=c5c02c2a560042fb94b688153734c625&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Men's casual tapered chino pants available in plaid and plain designs. Features a modern tapered fit for a contemporary look. Versatile pants perfect for casual outings, weekend wear, or relaxed office settings.",
+      "sizes": ["28x30", "28x32", "30x30", "30x32", "32x30", "32x32", "34x30", "34x32", "36x30", "36x32", "38x30", "38x32", "40x30", "40x32"],
+      "colors": ["Khaki", "Charcoal", "Navy", "Black", "Plaid Grey", "Plaid Brown"],
+      "details": [
+        { "label": "Material", "value": "Cotton Blend" },
+        { "label": "Fit", "value": "Tapered Fit" },
+        { "label": "Style", "value": "Casual Chino Pants" },
+        { "label": "Features", "value": "Tapered leg, Multiple colors/patterns, Modern casual style" }
+      ]
+    },
+    {
+      "id": "pants-B0FY55N6MV",
+      "title": "CRZ YOGA Men's Stretch Cotton Chino Pants",
+      "price": "$39.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/61pMj9utcsL._AC_SY879_.jpg",
+      "productUrl": "https://www.amazon.com/CRZ-YOGA-Stretch-Cotton-Chino/dp/B0FY55N6MV?crid=1HJCL6SPHGPOP&dib=eyJ2IjoiMSJ9.LFu0Iti9vr3EzGX6akX98EYRTxsvDE9RwbgWm5NU17Oidc08EOYSusr9lw5DdMbB_SaegqSVZuJaVwMfaRP-2y28E8pjgy03dQaQWZKM0ZdzyG72sZUgbiTX2X6W58yEfbASjvlxXpIIKIorkrn8EnX5uu1Vg5dzYq3txvA4vhsRVz1Pjo2IpjoIzw8Ruz1C1vIHUBu1BSz4YMS7BSkCkLGDfKipQT5WErbsZpJbqchWhS0K3WUl_9VEHiUhaEVdINHFLYxpFpb_XVjYxJdXc-5AbbzUQi2SFdMiio0XogE.qXgURye5sE32LUrJzpDY9ONKSgvVmmRMX8yIBD-rWrQ&dib_tag=se&keywords=good%2Bfellow%2Bchino%2Bpants%2Bfor%2Bmen&qid=1771198574&sprefix=good%2Bfellow%2Bchino%2Caps%2C372&sr=8-35&th=1&psc=1&linkCode=ll2&tag=hellawellgavi-20&linkId=37a69c701d068a3f3338c23b8578d169&language=en_US&ref_=as_li_ss_tl",
+      "summary": "CRZ YOGA premium stretch cotton chino pants designed for comfort and style. Features high-quality stretch fabric for maximum flexibility and all-day comfort. Perfect for active lifestyles, casual wear, or athletic-casual occasions.",
+      "sizes": ["28x30", "28x32", "29x30", "29x32", "30x30", "30x32", "31x30", "31x32", "32x30", "32x32", "33x30", "33x32", "34x30", "34x32", "36x30", "36x32", "38x30", "38x32"],
+      "colors": ["Black", "Navy", "Khaki", "Grey", "Olive", "Dark Brown"],
+      "details": [
+        { "label": "Material", "value": "Premium Stretch Cotton" },
+        { "label": "Fit", "value": "Athletic Fit" },
+        { "label": "Style", "value": "Performance Chino Pants" },
+        { "label": "Features", "value": "Superior stretch, Moisture-wicking, Athletic-casual design" }
+      ]
+    },
+    {
+      "id": "pants-B0B31BL9X5",
+      "title": "Volcom Men's Frickin Modern Stretch Chino Pants",
+      "price": "$49.95",
+      "imageUrl": "https://m.media-amazon.com/images/I/61JVNJVShRL._AC_SY879_.jpg",
+      "productUrl": "https://www.amazon.com/Volcom-Frickin-Modern-Stretch-Chino/dp/B0B31BL9X5?crid=1HJCL6SPHGPOP&dib=eyJ2IjoiMSJ9.LFu0Iti9vr3EzGX6akX98EYRTxsvDE9RwbgWm5NU17Oidc08EOYSusr9lw5DdMbB_SaegqSVZuJaVwMfaRP-2y28E8pjgy03dQaQWZKM0ZdzyG72sZUgbiTX2X6W58yEfbASjvlxXpIIKIorkrn8EnX5uu1Vg5dzYq3txvA4vhsRVz1Pjo2IpjoIzw8Ruz1C1vIHUBu1BSz4YMS7BSkCkLGDfKipQT5WErbsZpJbqchWhS0K3WUl_9VEHiUhaEVdINHFLYxpFpb_XVjYxJdXc-5AbbzUQi2SFdMiio0XogE.qXgURye5sE32LUrJzpDY9ONKSgvVmmRMX8yIBD-rWrQ&dib_tag=se&keywords=good+fellow+chino+pants+for+men&qid=1771198574&sprefix=good+fellow+chino%2Caps%2C372&sr=8-60&linkCode=ll2&tag=hellawellgavi-20&linkId=227104c83cdd76a6099ed5cd985acd97&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Volcom Frickin Modern Stretch Chino pants combining street style with modern comfort. Premium stretch fabric offers ultimate flexibility and movement. Perfect for skateboarding, casual wear, or action sports lifestyle. Built with Volcom's signature style and durability.",
+      "sizes": ["28x30", "28x32", "30x30", "30x32", "31x30", "31x32", "32x30", "32x32", "33x30", "33x32", "34x30", "34x32", "36x30", "36x32", "38x30", "38x32"],
+      "colors": ["Black", "Khaki", "Navy", "Charcoal", "Dark Earth", "Stone"],
+      "details": [
+        { "label": "Material", "value": "Stretch Cotton Twill" },
+        { "label": "Fit", "value": "Modern Fit" },
+        { "label": "Style", "value": "Action Sports Chino" },
+        { "label": "Features", "value": "Stretch fabric, Modern styling, Durable construction, Skate-friendly" }
+      ]
+    },
+    {
+      "id": "pants-B01N5XWIFK",
+      "title": "Southpole Men's Stretch Basic Chino Pants",
+      "price": "$21.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/618NVGEMNpL._AC_SY879_.jpg",
+      "productUrl": "https://www.amazon.com/Southpole-Stretch-Basic-Chino-Pants/dp/B01N5XWIFK?crid=1HJCL6SPHGPOP&dib=eyJ2IjoiMSJ9.I8z1YPqFOMTMUw9hVqIKHp3Qixa0IxR9W29AC6hYNWUdnTh3hqegKPqeiABzpJWqcuX9yXK_RdHabl_9JU_dkb7pBm-Ek0idYs1YsAlKCfo.6r6LdzUNvz8enz4Y6imxN3LGlTIIH-WascMZal4qIo4&dib_tag=se&keywords=good%2Bfellow%2Bchino%2Bpants%2Bfor%2Bmen&qid=1771199420&sprefix=good%2Bfellow%2Bchino%2Caps%2C372&sr=8-53&xpid=rbnbQrffNTYZC&th=1&psc=1&linkCode=ll2&tag=hellawellgavi-20&linkId=77f66f0524ebdba1389ae63186a3cf6d&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Southpole men's stretch basic chino pants offering urban style and comfort at an affordable price. Features stretch fabric for ease of movement and all-day wearability. Perfect for streetwear, casual outings, or everyday urban style.",
+      "sizes": ["28x30", "28x32", "30x30", "30x32", "32x30", "32x32", "34x30", "34x32", "36x30", "36x32", "38x30", "38x32", "40x30", "40x32"],
+      "colors": ["Khaki", "Black", "Navy", "Grey", "Olive", "Brown"],
+      "details": [
+        { "label": "Material", "value": "Stretch Cotton Blend" },
+        { "label": "Fit", "value": "Regular Fit" },
+        { "label": "Style", "value": "Urban Streetwear Chino" },
+        { "label": "Features", "value": "Stretch fabric, Affordable pricing, Urban style, Everyday comfort" }
+      ]
+    },
+    {
+      "id": "pants-B0D82NFMK1",
+      "title": "BYLT Men's Exec Pant",
+      "price": "$68.00",
+      "imageUrl": "https://m.media-amazon.com/images/I/5112ZTeiEAL._AC_SX679_.jpg",
+      "productUrl": "https://www.amazon.com/BYLT-Exec-Pant-Mens_Black_32/dp/B0D82NFMK1?content-id=amzn1.sym.684f2c9a-6400-4db4-b80e-28dbf4bbbbb0%3Aamzn1.sym.684f2c9a-6400-4db4-b80e-28dbf4bbbbb0&crid=1HJCL6SPHGPOP&cv_ct_cx=good%2Bfellow%2Bchino%2Bpants%2Bfor%2Bmen&keywords=good%2Bfellow%2Bchino%2Bpants%2Bfor%2Bmen&pd_rd_i=B0D82NFMK1&pd_rd_r=9a7e7dc0-39d9-414f-bd5f-c982d3491605&pd_rd_w=phjWp&pd_rd_wg=IY9jt&pf_rd_p=684f2c9a-6400-4db4-b80e-28dbf4bbbbb0&pf_rd_r=9A4Y1BRFCY05817EV6Z3&qid=1771199580&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=good%2Bfellow%2Bchino%2Caps%2C372&sr=1-99-499c66cf-84c7-49ca-acc8-32789aff254e-spons&xpid=rbnbQrffNTYZC&aref=RleGEx1jaD&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1&psc=1&linkCode=ll2&tag=hellawellgavi-20&linkId=43bf19533046c16bf6cf7db267b3cfe6&language=en_US&ref_=as_li_ss_tl",
+      "summary": "BYLT premium Exec Pant designed for the modern professional. Ultra-comfortable performance fabric blends style with functionality. Perfect for office wear, business meetings, or executive casual settings. Features technical fabric for breathability and all-day comfort.",
+      "sizes": ["28", "30", "31", "32", "33", "34", "36", "38"],
+      "colors": ["Black", "Navy", "Khaki", "Charcoal", "Stone Grey"],
+      "details": [
+        { "label": "Material", "value": "Premium Performance Fabric" },
+        { "label": "Fit", "value": "Executive Fit" },
+        { "label": "Style", "value": "Executive Dress Pant" },
+        { "label": "Features", "value": "Breathable fabric, Wrinkle-resistant, Professional styling, Technical performance" }
+      ]
+    }
   ]
 }

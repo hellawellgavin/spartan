@@ -1,10 +1,127 @@
 {
   "category": "collectables",
   "products": [
-    { "id": "collectables-1", "title": "Replica Helmet Mini", "price": "$49.99", "imageUrl": "https://picsum.photos/id/119/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Detailed miniature replica of a Corinthian helmet. Display piece or gift.", "sizes": ["One Size"], "colors": ["Bronze", "Silver"], "details": [{ "label": "Material", "value": "Metal alloy" }, { "label": "Height", "value": "Approx. 6\"" }] },
-    { "id": "collectables-2", "title": "Shield Statue", "price": "$79.99", "imageUrl": "https://picsum.photos/id/120/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Spartan shield statue with stand. A striking addition to any shelf or desk.", "sizes": ["One Size"], "colors": ["Bronze", "Gold finish", "Black"], "details": [{ "label": "Material", "value": "Resin" }, { "label": "Dimensions", "value": "8\" x 6\"" }] },
-    { "id": "collectables-3", "title": "Limited Edition Print", "price": "$59.99", "imageUrl": "https://picsum.photos/id/121/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Framed art print inspired by Thermopylae. Limited run with certificate.", "sizes": ["12\" x 16\"", "18\" x 24\""], "colors": ["Black frame", "Gold frame", "Natural wood"], "details": [{ "label": "Print", "value": "Archival paper" }, { "label": "Edition", "value": "Limited" }] },
-    { "id": "collectables-4", "title": "Coin Set Gold", "price": "$39.99", "imageUrl": "https://picsum.photos/id/122/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Set of three replica coins with Spartan motifs. Presented in display case.", "sizes": ["Set of 3"], "colors": ["Gold finish", "Silver finish"], "details": [{ "label": "Material", "value": "Metal" }, { "label": "Diameter", "value": "1.5\" each" }] },
-    { "id": "collectables-5", "title": "Book: Thermopylae", "price": "$24.99", "imageUrl": "https://picsum.photos/id/123/400/400", "productUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=souvenirspartan-20", "summary": "Authoritative book on the Battle of Thermopylae. Hardback with illustrated maps.", "sizes": ["One Size"], "colors": ["Hardcover"], "details": [{ "label": "Format", "value": "Hardcover" }, { "label": "Pages", "value": "Approx. 300" }] }
+    {
+      "id": "amz-B0CMSVNWYG",
+      "title": "Ivamis Trading Spartan Helmet Pin",
+      "price": "$12.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/81iqtr79otL._AC_SL1500_.jpg",
+      "productUrl": "https://www.amazon.com/Ivamis-Trading-P7515-Spartan-Helmet/dp/B0CMSVNWYG?crid=4IN68C606NZK&dib=eyJ2IjoiMSJ9.kiHzxFmbLqUfiNL7RhuVppCmtXG9E27FNwOGjD3TzAtCkIZBUM99O_88o_WC_ZIyDKTlkJObKGqtmlto5_WNMAAlyQh2Jb3EyXWgYJGHD4LQiy5lQw7hxObzzZRmHwkkzirjio4BnRpeXERBLz1boKNVrsnV8luVsK9VhVrtUoz1QQpW_r3YimG8E4burmimz08ZswJJstVlovLxzTWXjDqbG1VPb0umqPCBrKOC16L7NScBY6KCbiUUn1G119MEtJHdlrZLWEi7wFZg9h9CuzoHEIB7S9QkQWlsBG5YkIQ.NQS7lCkgxx9kRc0U0QwU-HJ7-nCVCbQVvXyzs32W3Vo&dib_tag=se&keywords=spartan+helmet+pin&qid=1771200437&sprefix=spartan+pin+%2Caps%2C219&sr=8-4&linkCode=ll2&tag=hellawellgavi-20&linkId=e04b903110ecf00411f273046ac62543&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Premium Spartan helmet lapel pin. Perfect for collectors, history enthusiasts, or as a statement accessory.",
+      "sizes": ["One Size"],
+      "colors": ["Bronze/Gold"],
+      "details": [
+        { "label": "Brand", "value": "Ivamis Trading" },
+        { "label": "Type", "value": "Lapel Pin" },
+        { "label": "Style", "value": "Spartan Helmet" }
+      ]
+    },
+    {
+      "id": "amz-B0FPGFSN14",
+      "title": "Spartan Helmet Decorative Brooch Pin",
+      "price": "$13.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/61sojZgSCaL._AC_SY625_.jpg",
+      "productUrl": "https://www.amazon.com/Spartan-Brooches-Decorative-Clothes-Backpack/dp/B0FPGFSN14?crid=PW7389EFJFGK&dib=eyJ2IjoiMSJ9.kiHzxFmbLqUfiNL7RhuVppCmtXG9E27FNwOGjD3TzAtCkIZBUM99O_88o_WC_ZIyDKTlkJObKGqtmlto5_WNMAAlyQh2Jb3EyXWgYJGHD4LQiy5lQw7hxObzzZRmHwkkzirjio4BnRpeXERBLz1boKNVrsnV8luVsK9VhVrtUoz1QQpW_r3YimG8E4burmimz08ZswJJstVlovLxzTWXjDqbG1VPb0umqPCBrKOC16L7NScBY6KCbiUUn1G119MEtJHdlrZLWEi7wFZg9h9CuzoHEIB7S9QkQWlsBG5YkIQ.NQS7lCkgxx9kRc0U0QwU-HJ7-nCVCbQVvXyzs32W3Vo&dib_tag=se&keywords=spartan+helmet+pin&qid=1771200618&sprefix=spartan+pin%2Caps%2C200&sr=8-33&linkCode=ll2&tag=hellawellgavi-20&linkId=a8cc3fc2e6098a39a19d9486aa7433c1&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Decorative Spartan helmet brooch pin. Great for clothes, backpacks, and accessories. A unique collectible piece.",
+      "sizes": ["One Size"],
+      "colors": ["Antique Gold"],
+      "details": [
+        { "label": "Type", "value": "Decorative Brooch" },
+        { "label": "Style", "value": "Spartan Helmet" },
+        { "label": "Use", "value": "Clothes, Backpack, Accessories" }
+      ]
+    },
+    {
+      "id": "amz-B0G2KWM73D",
+      "title": "Blue Line Spartan Helm Distressed Pin",
+      "price": "$14.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/51+hNRkfSKL._AC_SY625_.jpg",
+      "productUrl": "https://www.amazon.com/Blue-Line-Spartan-Helm-Distressed/dp/B0G2KWM73D?crid=PW7389EFJFGK&dib=eyJ2IjoiMSJ9.aH0rPFgQoMbB3wpjhAl36pkk4w5PYj7M0OjfLjsDGJvPof67W_ZTdBfmfsHIZuLReUd8QehwIYmwo_B0qUFP07T7o5LH3dOK46Peh6WgH1dgDYlVTAKx7AYOueWTWV327eglXRavDCVvwcHH5oGVtOP4GdBLbyfAlAi_7sBEtM4MtViJeNXnXu_BhvYLVjZBTIfkkywiAtM2rlTf568kPkKmUZB-7P2n2iPSj-30N0tTYMqq-M_advsm1AXuQ81aF10AMyTwQONFu7fmMk-sVnCvwnVpfZYA1YAefhWEivs.iK-ImUQ_U0bIEezham-xEhO7q5J1j32yuEk0_uxEBw8&dib_tag=se&keywords=spartan+helmet+pin&qid=1771200758&sprefix=spartan+pin%2Caps%2C200&sr=8-80&xpid=xVGAPtauDCC6N&linkCode=ll2&tag=hellawellgavi-20&linkId=bb604fe56c939c0cf515a63a4ccc1213&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Blue line Spartan helmet pin with distressed finish. Show your support with this unique collectible pin.",
+      "sizes": ["One Size"],
+      "colors": ["Blue/Silver Distressed"],
+      "details": [
+        { "label": "Type", "value": "Lapel Pin" },
+        { "label": "Style", "value": "Blue Line Spartan Helm" },
+        { "label": "Finish", "value": "Distressed" }
+      ]
+    },
+    {
+      "id": "amz-B010OMYAD6",
+      "title": "LEGEEON Spartan Helmet Shield Rubber Patch",
+      "price": "$9.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/81ocdBpiGDL._AC_SL1500_.jpg",
+      "productUrl": "https://www.amazon.com/LEGEEON-Spartan-Helmet-Shield-Rubber/dp/B010OMYAD6?crid=PW7389EFJFGK&dib=eyJ2IjoiMSJ9.ojoQz1gV_wnAtS1mJyW6s5tjwugDBXTpq6i-Jp9HONxNIOrlBxduHwhqNowWCqDZog1A6VDEY7B5T5hJqDN0Cn6KcduJSMYohZfgcIYQbZbZip4dkyRiSZu3SQucbEtjhG_Ib9Z9ehnugxfUZJSyiEmdPOZjtqpTpqa5CQpTYO3jjVFBwcdE-c8DAQ17qcoRpqDEShuFdnejJSymlvgzXzAz2TfgVvZQuQqMuTKG-qxaQCmAM1f8eA8NSRwfxj_V0tWzfC8NTQImTseIhzDcGjMcJTD0hgM2L3RNn_EA8lg.nAHNrU-EYCoY1Ry29Vwg-ubr4_2NN2SETscC_eUW2ow&dib_tag=se&keywords=spartan%2Bhelmet%2Bpin&qid=1771200880&sprefix=spartan%2Bpin%2Caps%2C200&sr=8-114&xpid=xVGAPtauDCC6N&th=1&linkCode=ll2&tag=hellawellgavi-20&linkId=f1eba1d23ec84a8105062afb7459f609&language=en_US&ref_=as_li_ss_tl",
+      "summary": "LEGEEON tactical rubber patch featuring Spartan helmet and shield design. Perfect for morale patches, tactical gear, and backpacks.",
+      "sizes": ["3\" x 3\""],
+      "colors": ["Black/Red"],
+      "details": [
+        { "label": "Brand", "value": "LEGEEON" },
+        { "label": "Type", "value": "Rubber Patch" },
+        { "label": "Material", "value": "PVC Rubber" }
+      ]
+    },
+    {
+      "id": "amz-B079NGRKX2",
+      "title": "Retro Spartan Helmet Silhouette Patrol Pin",
+      "price": "$11.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/71DZdQERLsL._AC_SL1000_.jpg",
+      "productUrl": "https://www.amazon.com/Retro-Spartan-Helmet-Silhouette-Patrol/dp/B079NGRKX2?crid=PW7389EFJFGK&dib=eyJ2IjoiMSJ9.ojoQz1gV_wnAtS1mJyW6s5tjwugDBXTpq6i-Jp9HONxNIOrlBxduHwhqNowWCqDZog1A6VDEY7B5T5hJqDN0Cn6KcduJSMYohZfgcIYQbZbZip4dkyRiSZu3SQucbEtjhG_Ib9Z9ehnugxfUZJSyiEmdPOZjtqpTpqa5CQpTYO3jjVFBwcdE-c8DAQ17qcoRpqDEShuFdnejJSymlvgzXzAz2TfgVvZQuQqMuTKG-qxaQCmAM1f8eA8NSRwfxj_V0tWzfC8NTQImTseIhzDcGjMcJTD0hgM2L3RNn_EA8lg.nAHNrU-EYCoY1Ry29Vwg-ubr4_2NN2SETscC_eUW2ow&dib_tag=se&keywords=spartan%2Bhelmet%2Bpin&qid=1771200880&sprefix=spartan%2Bpin%2Caps%2C200&sr=8-126&xpid=xVGAPtauDCC6N&th=1&linkCode=ll2&tag=hellawellgavi-20&linkId=504e389e931e94203581548889a3acd1&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Retro-style Spartan helmet silhouette pin with distressed finish. Perfect for patrol gear, tactical accessories, or as a collectible piece.",
+      "sizes": ["One Size"],
+      "colors": ["Silver/Black"],
+      "details": [
+        { "label": "Type", "value": "Lapel Pin" },
+        { "label": "Style", "value": "Retro Spartan Silhouette" },
+        { "label": "Finish", "value": "Distressed" }
+      ]
+    },
+    {
+      "id": "amz-B0867J6S7Q",
+      "title": "Spartan Warrior Embroidered Souvenir Applique",
+      "price": "$8.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Ue4Kb4y5L._AC_.jpg",
+      "productUrl": "https://www.amazon.com/Spartan-Warrior-Embroidered-Souvenir-Applique/dp/B0867J6S7Q?crid=PW7389EFJFGK&dib=eyJ2IjoiMSJ9.J2cyqXvvO8lbxLQzKnRItnB6oeJ2QZtcNFV6MtBQu6RvrZuG-spnzqykcHELljo1sef4lwGDqOVMtoH4DWAMzKRrxHsPMNFO_TBPaxjKg45RSMR6K1jmB5Mz2PTOhZF4wbHZdQ3IJXR_b7vliL5kD0S_a7rRcMjK4S2obd3coZBGlmChbV7M0ADNpPDOaPDeBH_EYFM4SBge_j_kBdCvK1hqNhfG_eBrbYQbou8c-jmgOK0RCr0E2a1_8__JTrrlJsPCgBMoIwEEe4mcH7PWzPOTtStcJBfcXKfl00b8Vbs.mF3WW26qsZFQyFBM2Utagu55_jj6fHx-z5l75psGSPY&dib_tag=se&keywords=spartan+helmet+pin&qid=1771201145&sprefix=spartan+pin%2Caps%2C200&sr=8-168&xpid=xVGAPtauDCC6N&linkCode=ll2&tag=hellawellgavi-20&linkId=80395a518ab9292259765ba647f9ce71&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Embroidered Spartan warrior patch applique. Perfect for jackets, bags, and gear. High-quality embroidery with iron-on backing for easy application.",
+      "sizes": ["3\" x 3.5\""],
+      "colors": ["Gold/Black"],
+      "details": [
+        { "label": "Type", "value": "Embroidered Patch" },
+        { "label": "Style", "value": "Spartan Warrior" },
+        { "label": "Application", "value": "Iron-On or Sew-On" }
+      ]
+    },
+    {
+      "id": "amz-B0C3WK8BJ7",
+      "title": "Pinstant Spartan Shield with Lambda Pin",
+      "price": "$10.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/71S0Rpu+AbL._AC_SX625_.jpg",
+      "productUrl": "https://www.amazon.com/Pinstant-Spartan-Shield-Lambda-Ancient/dp/B0C3WK8BJ7?crid=PW7389EFJFGK&dib=eyJ2IjoiMSJ9.BqZgsPrY54pD7FVPC2HUIwuiGs2ew2yAi90f2qGrw3aGq33X6IYYCUe3vyLFKK1MOeIJ6zPRfrp7nKHvKdP2eWvBtoHKKNff09jZ0Klc2VVF-jWjo_xM_CxXbtIZGfdl8udcWiIrcOHNdYoomvhTJs15paoFrV24QJS-XxBOw_8utEx5hksHSiIPkIZ2sWyDthtG4pSobVCVBajTbifdTUT0QTjQIiU1__DMwJSV6PAhWt4chfLKWsICTqkOkFmlgYiCc3jk9t5Oa57fT71OFwCUphzhTw0BYMZB9X2gKqY.ke25Rz4wBaZO_HOZU1YEEjCupE9CpNi1J3oOzWz-20k&dib_tag=se&keywords=spartan%2Bhelmet%2Bpin&qid=1771201291&sprefix=spartan%2Bpin%2Caps%2C200&sr=8-14&xpid=xVGAPtauDCC6N&th=1&psc=1&linkCode=ll2&tag=hellawellgavi-20&linkId=cf0cc546683aa0ef3fb477900e3899e2&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Ancient Greek Spartan shield lapel pin featuring the Lambda symbol. Represents Sparta's legacy of courage and warrior spirit. Perfect for history buffs and collectors.",
+      "sizes": ["One Size"],
+      "colors": ["Bronze/Red"],
+      "details": [
+        { "label": "Brand", "value": "Pinstant" },
+        { "label": "Type", "value": "Lapel Pin" },
+        { "label": "Symbol", "value": "Lambda (Λ)" },
+        { "label": "Style", "value": "Ancient Greek Shield" }
+      ]
+    },
+    {
+      "id": "amz-B00GA5I2UO",
+      "title": "Ancient Macedonian Shield Keyring Alexander",
+      "price": "$9.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/61FIA77TM0L._AC_SY879_.jpg",
+      "productUrl": "https://www.amazon.com/Ancient-Macedonian-Shield-Keyring-Alexander/dp/B00GA5I2UO?crid=PW7389EFJFGK&dib=eyJ2IjoiMSJ9.BqZgsPrY54pD7FVPC2HUIwuiGs2ew2yAi90f2qGrw3aGq33X6IYYCUe3vyLFKK1MOeIJ6zPRfrp7nKHvKdP2eWvBtoHKKNff09jZ0Klc2VVF-jWjo_xM_CxXbtIZGfdl8udcWiIrcOHNdYoomvhTJs15paoFrV24QJS-XxBOw_8utEx5hksHSiIPkIZ2sWyDthtG4pSobVCVBajTbifdTUT0QTjQIiU1__DMwJSV6PAhWt4chfLKWsICTqkOkFmlgYiCc3jk9t5Oa57fT71OFwCUphzhTw0BYMZB9X2gKqY.ke25Rz4wBaZO_HOZU1YEEjCupE9CpNi1J3oOzWz-20k&dib_tag=se&keywords=spartan+helmet+pin&qid=1771201291&sprefix=spartan+pin%2Caps%2C200&sr=8-13&xpid=xVGAPtauDCC6N&linkCode=ll2&tag=hellawellgavi-20&linkId=1f98cf61b04a6afd1c3cd6b4d62a5541&language=en_US&ref_=as_li_ss_tl",
+      "summary": "Ancient Macedonian shield keychain commemorating Alexander the Great. Features intricate Macedonian sun symbol design. Perfect collectible for ancient history enthusiasts.",
+      "sizes": ["One Size"],
+      "colors": ["Bronze/Gold"],
+      "details": [
+        { "label": "Type", "value": "Keyring" },
+        { "label": "Style", "value": "Ancient Macedonian Shield" },
+        { "label": "Theme", "value": "Alexander the Great" },
+        { "label": "Symbol", "value": "Vergina Sun" }
+      ]
+    }
   ]
 }
